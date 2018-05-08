@@ -1,0 +1,56 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 31, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 781.839 s <<< FAILURE! - in TestSuite
+ValidateRecentViewLink(smokeTestFirefox.ValidateSmokeTest)  Time elapsed: 10.059 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: See all recently viewed
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-GAH683G', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0a1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8868, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 24016ab8-79f1-4cb9-bb71-1f749af5e35f
+*** Element info: {Using=link text, value=See all recently viewed}
+	at smokeTestFirefox.ValidateSmokeTest.ValidateRecentViewLink(ValidateSmokeTest.java:348)
+
+ValidateCalendarPage(smokeTestFirefox.ValidateSmokeTest)  Time elapsed: 16.661 s  <<< FAILURE!
+java.lang.AssertionError: expected [Calendar Monthly View - MarkITplace] but found [Track Dashboard - MarkITplace]
+	at smokeTestFirefox.ValidateSmokeTest.ValidateCalendarPage(ValidateSmokeTest.java:944)
+
+ValidateCalendarLinks(smokeTestFirefox.ValidateSmokeTest)  Time elapsed: 10.307 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #calendarSelectYearMonthly
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-GAH683G', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0a1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8868, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 24016ab8-79f1-4cb9-bb71-1f749af5e35f
+*** Element info: {Using=id, value=calendarSelectYearMonthly}
+	at smokeTestFirefox.ValidateSmokeTest.ValidateCalendarLinks(ValidateSmokeTest.java:954)
+
+ValidateAllReportsLinks(smokeTestFirefox.ValidateSmokeTest)  Time elapsed: 83.022 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Timeout loading page after 50000ms
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-GAH683G', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0a1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8868, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 24016ab8-79f1-4cb9-bb71-1f749af5e35f
+	at smokeTestFirefox.ValidateSmokeTest.ValidateAllReportsLinks(ValidateSmokeTest.java:1057)
+
+ValidateSavedReports(smokeTestFirefox.ValidateSmokeTest)  Time elapsed: 50.026 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Timeout loading page after 50000ms
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-GAH683G', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0a1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8868, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 24016ab8-79f1-4cb9-bb71-1f749af5e35f
+	at smokeTestFirefox.ValidateSmokeTest.ValidateSavedReports(ValidateSmokeTest.java:1419)
+
+ValidateCompaePage(smokeTestFirefox.ValidateSmokeTest)  Time elapsed: 30.63 s  <<< FAILURE!
+java.lang.AssertionError: expected [Product Compare - MarkITplace] but found [Printers - MarkITplace]
+	at smokeTestFirefox.ValidateSmokeTest.ValidateCompaePage(ValidateSmokeTest.java:1462)
+

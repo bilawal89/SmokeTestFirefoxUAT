@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="31" passed="30" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-04-12T10:19:30Z" name="Default suite" finished-at="2018-04-12T10:32:42Z" duration-ms="791922">
+    <groups>
+    </groups>
+    <test started-at="2018-04-12T10:19:30Z" name="Default test" finished-at="2018-04-12T10:32:42Z" duration-ms="791922">
+      <class name="smokeTestFirefox.ValidateSmokeTest">
+        <test-method signature="ValidateLogin()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:19:30Z" name="ValidateLogin" finished-at="2018-04-12T15:20:20Z" duration-ms="49812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLogin -->
+        <test-method signature="ValidateFavoriteIcon()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:20:20Z" name="ValidateFavoriteIcon" finished-at="2018-04-12T15:21:19Z" duration-ms="58765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateFavoriteIcon -->
+        <test-method signature="ValidateSearching()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:21:19Z" name="ValidateSearching" finished-at="2018-04-12T15:21:41Z" duration-ms="22123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSearching -->
+        <test-method signature="ValidateAddToCart()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:21:41Z" name="ValidateAddToCart" finished-at="2018-04-12T15:22:36Z" duration-ms="54970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAddToCart -->
+        <test-method signature="ValidateAddTofavorites()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:22:36Z" name="ValidateAddTofavorites" finished-at="2018-04-12T15:22:45Z" duration-ms="8893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAddTofavorites -->
+        <test-method signature="ValidatePDP()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:22:45Z" name="ValidatePDP" finished-at="2018-04-12T15:22:58Z" duration-ms="13777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatePDP -->
+        <test-method signature="ValidateRecentViewLink()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:22:58Z" name="ValidateRecentViewLink" finished-at="2018-04-12T15:23:03Z" duration-ms="4679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateRecentViewLink -->
+        <test-method signature="ValidateFooterLogo()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:23:03Z" name="ValidateFooterLogo" finished-at="2018-04-12T15:23:11Z" duration-ms="7413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateFooterLogo -->
+        <test-method signature="ValidateMyProfNavigation()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:23:11Z" name="ValidateMyProfNavigation" finished-at="2018-04-12T15:23:23Z" duration-ms="12000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMyProfNavigation -->
+        <test-method signature="ValidateHeaderLogo()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:23:23Z" name="ValidateHeaderLogo" finished-at="2018-04-12T15:23:31Z" duration-ms="8594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateHeaderLogo -->
+        <test-method signature="ValidateStandardsCatalog()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:23:31Z" name="ValidateStandardsCatalog" finished-at="2018-04-12T15:23:45Z" duration-ms="14234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateStandardsCatalog -->
+        <test-method signature="ValidateStandardsCatalogDetail()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:23:45Z" name="ValidateStandardsCatalogDetail" finished-at="2018-04-12T15:24:11Z" duration-ms="25141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateStandardsCatalogDetail -->
+        <test-method signature="ValidateAllProduct()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:24:11Z" name="ValidateAllProduct" finished-at="2018-04-12T15:24:23Z" duration-ms="12922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAllProduct -->
+        <test-method signature="ValidateAudioCablesCategory()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:24:23Z" name="ValidateAudioCablesCategory" finished-at="2018-04-12T15:24:41Z" duration-ms="17523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAudioCablesCategory -->
+        <test-method signature="ValidateResources()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:24:41Z" name="ValidateResources" finished-at="2018-04-12T15:24:55Z" duration-ms="13851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateResources -->
+        <test-method signature="ValidateSpecialOffer()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:24:55Z" name="ValidateSpecialOffer" finished-at="2018-04-12T15:25:05Z" duration-ms="10421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSpecialOffer -->
+        <test-method signature="ValidateCartPage()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:25:05Z" name="ValidateCartPage" finished-at="2018-04-12T15:25:14Z" duration-ms="8344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCartPage -->
+        <test-method signature="ValidateRemoveFromCart()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:25:14Z" name="ValidateRemoveFromCart" finished-at="2018-04-12T15:25:22Z" duration-ms="8656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateRemoveFromCart -->
+        <test-method signature="ValidateCheckoutProcess()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:25:22Z" name="ValidateCheckoutProcess" finished-at="2018-04-12T15:26:05Z" duration-ms="42298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCheckoutProcess -->
+        <test-method signature="ValidateCheckoutHeaderLogo()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:26:05Z" name="ValidateCheckoutHeaderLogo" finished-at="2018-04-12T15:26:12Z" duration-ms="7733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCheckoutHeaderLogo -->
+        <test-method signature="ValidateCheckoutFooterLogo()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:26:12Z" name="ValidateCheckoutFooterLogo" finished-at="2018-04-12T15:26:21Z" duration-ms="8892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCheckoutFooterLogo -->
+        <test-method signature="ValidateFooterLinks()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:26:21Z" name="ValidateFooterLinks" finished-at="2018-04-12T15:26:59Z" duration-ms="37640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateFooterLinks -->
+        <test-method signature="ValidateTrackpage()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:26:59Z" name="ValidateTrackpage" finished-at="2018-04-12T15:27:24Z" duration-ms="25376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTrackpage -->
+        <test-method signature="ValidateordersPage()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:27:24Z" name="ValidateordersPage" finished-at="2018-04-12T15:27:51Z" duration-ms="26468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateordersPage -->
+        <test-method signature="ValidatePurchaseAnalysisPage()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:27:51Z" name="ValidatePurchaseAnalysisPage" finished-at="2018-04-12T15:28:30Z" duration-ms="39000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatePurchaseAnalysisPage -->
+        <test-method signature="ValidatePAEmail()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:28:30Z" name="ValidatePAEmail" finished-at="2018-04-12T15:28:42Z" duration-ms="12281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidatePAEmail -->
+        <test-method signature="ValidateCalendarPage()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:28:42Z" name="ValidateCalendarPage" finished-at="2018-04-12T15:29:00Z" duration-ms="18143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCalendarPage -->
+        <test-method signature="ValidateCalendarLinks()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:29:00Z" name="ValidateCalendarLinks" finished-at="2018-04-12T15:30:26Z" duration-ms="85892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCalendarLinks -->
+        <test-method signature="ValidateAllReportsLinks()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:30:26Z" name="ValidateAllReportsLinks" finished-at="2018-04-12T15:31:35Z" duration-ms="69264" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Web element reference not seen before: 654245d3-1bc6-4454-b787-de9579bd6606
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-GAH683G', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\bilaw\AppData\Local\Temp\rust_mozprofile.suxoQCMWd52k, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=57.0a1, platformVersion=10.0, moz:processID=8788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt, moz:webdriverClick=false}]
+Session ID: 091defc1-ae4e-4e3a-a6bf-901ddde7f1c8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Web element reference not seen before: 654245d3-1bc6-4454-b787-de9579bd6606
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-GAH683G', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\bilaw\AppData\Local\Temp\rust_mozprofile.suxoQCMWd52k, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=57.0a1, platformVersion=10.0, moz:processID=8788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt, moz:webdriverClick=false}]
+Session ID: 091defc1-ae4e-4e3a-a6bf-901ddde7f1c8
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:703)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:631)
+	at smokeTestFirefox.ValidateSmokeTest.ValidateAllReportsLinks(ValidateSmokeTest.java:1089)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAllReportsLinks -->
+        <test-method signature="ValidateSavedReports()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:31:35Z" name="ValidateSavedReports" finished-at="2018-04-12T15:31:52Z" duration-ms="17251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSavedReports -->
+        <test-method signature="ValidateCompaePage()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:31:52Z" name="ValidateCompaePage" finished-at="2018-04-12T15:32:42Z" duration-ms="49125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCompaePage -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:smokeTestFirefox.ValidateSmokeTest@5049d8b2]" started-at="2018-04-12T15:32:42Z" name="closebrowser" finished-at="2018-04-12T15:32:42Z" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- smokeTestFirefox.ValidateSmokeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

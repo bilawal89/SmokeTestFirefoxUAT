@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="781.839" tests="31" errors="0" skipped="0" failures="6">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="9"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\workspace\UATSmokeFirefox\target\test-classes;C:\Program Files (x86)\Jenkins\workspace\UATSmokeFirefox\target\classes;C:\Windows\system32\config\systemprofile\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\3.1.2\extentreports-3.1.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\2.20.1\maven-surefire-plugin-2.20.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\maven-surefire-common\2.20.1\maven-surefire-common-2.20.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-plugin-api\2.2.1\maven-plugin-api-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\plugin-tools\maven-plugin-annotations\3.3\maven-plugin-annotations-3.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-api\2.20.1\surefire-api-2.20.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-logger-api\2.20.1\surefire-logger-api-2.20.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-booter\2.20.1\surefire-booter-2.20.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-artifact\2.2.1\maven-artifact-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\plexus\plexus-utils\1.5.15\plexus-utils-1.5.15.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-plugin-descriptor\2.2.1\maven-plugin-descriptor-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-project\2.2.1\maven-project-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-settings\2.2.1\maven-settings-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-profile\2.2.1\maven-profile-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-artifact-manager\2.2.1\maven-artifact-manager-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\backport-util-concurrent\backport-util-concurrent\3.1\backport-util-concurrent-3.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-plugin-registry\2.2.1\maven-plugin-registry-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.11\plexus-interpolation-1.11.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-model\2.2.1\maven-model-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-core\2.2.1\maven-core-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-plugin-parameter-documenter\2.2.1\maven-plugin-parameter-documenter-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\wagon\wagon-http\1.0-beta-6\wagon-http-1.0-beta-6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\wagon\wagon-http-shared\1.0-beta-6\wagon-http-shared-1.0-beta-6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\nekohtml\xercesMinimal\1.9.6.2\xercesMinimal-1.9.6.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\nekohtml\nekohtml\1.9.6.2\nekohtml-1.9.6.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\wagon\wagon-webdav-jackrabbit\1.0-beta-6\wagon-webdav-jackrabbit-1.0-beta-6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\jackrabbit\jackrabbit-webdav\1.5.0\jackrabbit-webdav-1.5.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\jackrabbit\jackrabbit-jcr-commons\1.5.0\jackrabbit-jcr-commons-1.5.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-nop\1.5.3\slf4j-nop-1.5.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-jdk14\1.5.6\slf4j-jdk14-1.5.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.5.6\slf4j-api-1.5.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\slf4j\jcl-over-slf4j\1.5.6\jcl-over-slf4j-1.5.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\reporting\maven-reporting-api\2.2.1\maven-reporting-api-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\doxia\doxia-logging-api\1.1\doxia-logging-api-1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\wagon\wagon-provider-api\1.0-beta-6\wagon-provider-api-1.0-beta-6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-repository-metadata\2.2.1\maven-repository-metadata-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-error-diagnostics\2.2.1\maven-error-diagnostics-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-monitor\2.2.1\maven-monitor-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\classworlds\classworlds\1.1\classworlds-1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-toolchain\2.2.1\maven-toolchain-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.8.1\selenium-java-3.8.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.8.1\selenium-api-3.8.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.8.1\selenium-chrome-driver-3.8.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.8.1\selenium-edge-driver-3.8.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.8.1\selenium-firefox-driver-3.8.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.8.1\selenium-ie-driver-3.8.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.8.1\selenium-opera-driver-3.8.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.8.1\selenium-remote-driver-3.8.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.8.1\selenium-safari-driver-3.8.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.8.1\selenium-support-3.8.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\testng\testng\6.13.1\testng-6.13.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-api\2.4\log4j-api-2.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-core\2.4\log4j-core-2.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="user.country.format" value="PK"/>
+    <property name="java.vm.specification.version" value="9"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-9.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Windows\TEMP\surefire11013760818024357856\surefirebooter17652883666701831016.jar C:\Windows\Temp\surefire11013760818024357856 2018-04-16T11-23-36_604-jvmRun1 surefire454944658365842512tmp surefire_01321909055413981777tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Program Files (x86)\Jenkins\workspace\UATSmokeFirefox\target\test-classes;C:\Program Files (x86)\Jenkins\workspace\UATSmokeFirefox\target\classes;C:\Windows\system32\config\systemprofile\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\3.1.2\extentreports-3.1.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\2.20.1\maven-surefire-plugin-2.20.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\maven-surefire-common\2.20.1\maven-surefire-common-2.20.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-plugin-api\2.2.1\maven-plugin-api-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\plugin-tools\maven-plugin-annotations\3.3\maven-plugin-annotations-3.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-api\2.20.1\surefire-api-2.20.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-logger-api\2.20.1\surefire-logger-api-2.20.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-booter\2.20.1\surefire-booter-2.20.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-artifact\2.2.1\maven-artifact-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\plexus\plexus-utils\1.5.15\plexus-utils-1.5.15.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-plugin-descriptor\2.2.1\maven-plugin-descriptor-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-project\2.2.1\maven-project-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-settings\2.2.1\maven-settings-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-profile\2.2.1\maven-profile-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-artifact-manager\2.2.1\maven-artifact-manager-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\backport-util-concurrent\backport-util-concurrent\3.1\backport-util-concurrent-3.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-plugin-registry\2.2.1\maven-plugin-registry-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.11\plexus-interpolation-1.11.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-model\2.2.1\maven-model-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-core\2.2.1\maven-core-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-plugin-parameter-documenter\2.2.1\maven-plugin-parameter-documenter-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\wagon\wagon-http\1.0-beta-6\wagon-http-1.0-beta-6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\wagon\wagon-http-shared\1.0-beta-6\wagon-http-shared-1.0-beta-6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\nekohtml\xercesMinimal\1.9.6.2\xercesMinimal-1.9.6.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\nekohtml\nekohtml\1.9.6.2\nekohtml-1.9.6.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\wagon\wagon-webdav-jackrabbit\1.0-beta-6\wagon-webdav-jackrabbit-1.0-beta-6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\jackrabbit\jackrabbit-webdav\1.5.0\jackrabbit-webdav-1.5.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\jackrabbit\jackrabbit-jcr-commons\1.5.0\jackrabbit-jcr-commons-1.5.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-nop\1.5.3\slf4j-nop-1.5.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-jdk14\1.5.6\slf4j-jdk14-1.5.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.5.6\slf4j-api-1.5.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\slf4j\jcl-over-slf4j\1.5.6\jcl-over-slf4j-1.5.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\reporting\maven-reporting-api\2.2.1\maven-reporting-api-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\doxia\doxia-logging-api\1.1\doxia-logging-api-1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\wagon\wagon-provider-api\1.0-beta-6\wagon-provider-api-1.0-beta-6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-repository-metadata\2.2.1\maven-repository-metadata-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-error-diagnostics\2.2.1\maven-error-diagnostics-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-monitor\2.2.1\maven-monitor-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\classworlds\classworlds\1.1\classworlds-1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\maven-toolchain\2.2.1\maven-toolchain-2.2.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.8.1\selenium-java-3.8.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.8.1\selenium-api-3.8.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.8.1\selenium-chrome-driver-3.8.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.8.1\selenium-edge-driver-3.8.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.8.1\selenium-firefox-driver-3.8.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.8.1\selenium-ie-driver-3.8.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.8.1\selenium-opera-driver-3.8.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.8.1\selenium-remote-driver-3.8.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.8.1\selenium-safari-driver-3.8.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.8.1\selenium-support-3.8.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\testng\testng\6.13.1\testng-6.13.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-api\2.4\log4j-api-2.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-core\2.4\log4j-core-2.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-9.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Program Files (x86)\Jenkins\workspace\UATSmokeFirefox"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Windows\TEMP\surefire11013760818024357856\surefirebooter17652883666701831016.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="9.0.1+11"/>
+    <property name="user.name" value="DESKTOP-GAH683G$"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Windows\system32\config\systemprofile\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Windows\TEMP\"/>
+    <property name="java.version" value="9.0.1"/>
+    <property name="user.dir" value="C:\Program Files (x86)\Jenkins\workspace\UATSmokeFirefox"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-9.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files\Java\jdk-9.0.1/bin;C:\Program Files\Java\jdk-9.0.1/bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-9.0.1\bin;C:\apache-maven-3.5.2-bin\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files (x86)\PuTTY\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="9.0.1+11"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="53.0"/>
+  </properties>
+  <testcase name="ValidateLogin" classname="smokeTestFirefox.ValidateSmokeTest" time="63.592"/>
+  <testcase name="ValidateFavoriteIcon" classname="smokeTestFirefox.ValidateSmokeTest" time="58.128"/>
+  <testcase name="ValidateSearching" classname="smokeTestFirefox.ValidateSmokeTest" time="21.875"/>
+  <testcase name="ValidateAddToCart" classname="smokeTestFirefox.ValidateSmokeTest" time="56.126"/>
+  <testcase name="ValidateAddTofavorites" classname="smokeTestFirefox.ValidateSmokeTest" time="3.889"/>
+  <testcase name="ValidatePDP" classname="smokeTestFirefox.ValidateSmokeTest" time="17.405"/>
+  <testcase name="ValidateRecentViewLink" classname="smokeTestFirefox.ValidateSmokeTest" time="10.059">
+    <failure message="Unable to locate element: See all recently viewed&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;DESKTOP-GAH683G&apos;, ip: &apos;10.0.2.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0a1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8868, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: 24016ab8-79f1-4cb9-bb71-1f749af5e35f&#10;*** Element info: {Using=link text, value=See all recently viewed}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: See all recently viewed
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-GAH683G', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0a1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8868, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 24016ab8-79f1-4cb9-bb71-1f749af5e35f
+*** Element info: {Using=link text, value=See all recently viewed}
+	at smokeTestFirefox.ValidateSmokeTest.ValidateRecentViewLink(ValidateSmokeTest.java:348)
+</failure>
+    <system-err><![CDATA[[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+--DOCSHELL 000001451CE1F000 == 6 [pid = 5284] [id = {e3991c89-2852-4eee-8489-03d959f98a54}]
+--DOCSHELL 000001451C99D800 == 5 [pid = 5284] [id = {968c0467-25eb-4cc8-92a2-7ec423936574}]
+--DOCSHELL 000001451B55A000 == 4 [pid = 5284] [id = {66b2ad19-5a57-4566-b697-2b0d0d18cdb1}]
+--DOCSHELL 0000014513C05800 == 3 [pid = 5284] [id = {d628547d-11b7-4e6e-aee1-b3c83f64c0af}]
+--DOMWINDOW == 14 (000001451B55B800) [pid = 5284] [serial = 42] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 13 (0000014513C06000) [pid = 5284] [serial = 38] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 12 (000001451C99F000) [pid = 5284] [serial = 45] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 11 (000001451CE1F800) [pid = 5284] [serial = 49] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 10 (0000014516DB6800) [pid = 5284] [serial = 35] [outer = 0000000000000000] [url = https://markitplace.arpatech.com/shop/results?q=printers]
+--DOMWINDOW == 9 (000001451B561800) [pid = 5284] [serial = 43] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 8 (0000014513C06800) [pid = 5284] [serial = 39] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 7 (000001451C9A0800) [pid = 5284] [serial = 46] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 6 (000001451CE20800) [pid = 5284] [serial = 50] [outer = 0000000000000000] [url = about:blank]
+]]></system-err>
+  </testcase>
+  <testcase name="ValidateFooterLogo" classname="smokeTestFirefox.ValidateSmokeTest" time="7.78"/>
+  <testcase name="ValidateMyProfNavigation" classname="smokeTestFirefox.ValidateSmokeTest" time="11.687"/>
+  <testcase name="ValidateHeaderLogo" classname="smokeTestFirefox.ValidateSmokeTest" time="8"/>
+  <testcase name="ValidateStandardsCatalog" classname="smokeTestFirefox.ValidateSmokeTest" time="14.895"/>
+  <testcase name="ValidateStandardsCatalogDetail" classname="smokeTestFirefox.ValidateSmokeTest" time="26.64"/>
+  <testcase name="ValidateAllProduct" classname="smokeTestFirefox.ValidateSmokeTest" time="12.011"/>
+  <testcase name="ValidateAudioCablesCategory" classname="smokeTestFirefox.ValidateSmokeTest" time="20.818"/>
+  <testcase name="ValidateResources" classname="smokeTestFirefox.ValidateSmokeTest" time="13.43"/>
+  <testcase name="ValidateSpecialOffer" classname="smokeTestFirefox.ValidateSmokeTest" time="9.829"/>
+  <testcase name="ValidateCartPage" classname="smokeTestFirefox.ValidateSmokeTest" time="9.267"/>
+  <testcase name="ValidateRemoveFromCart" classname="smokeTestFirefox.ValidateSmokeTest" time="13.06"/>
+  <testcase name="ValidateCheckoutProcess" classname="smokeTestFirefox.ValidateSmokeTest" time="43.83"/>
+  <testcase name="ValidateCheckoutHeaderLogo" classname="smokeTestFirefox.ValidateSmokeTest" time="15.429"/>
+  <testcase name="ValidateCheckoutFooterLogo" classname="smokeTestFirefox.ValidateSmokeTest" time="7.323"/>
+  <testcase name="ValidateFooterLinks" classname="smokeTestFirefox.ValidateSmokeTest" time="53.288"/>
+  <testcase name="ValidateTrackpage" classname="smokeTestFirefox.ValidateSmokeTest" time="25.391"/>
+  <testcase name="ValidateordersPage" classname="smokeTestFirefox.ValidateSmokeTest" time="28.285"/>
+  <testcase name="ValidatePurchaseAnalysisPage" classname="smokeTestFirefox.ValidateSmokeTest" time="22.742"/>
+  <testcase name="ValidatePAEmail" classname="smokeTestFirefox.ValidateSmokeTest" time="12.659"/>
+  <testcase name="ValidateCalendarPage" classname="smokeTestFirefox.ValidateSmokeTest" time="16.661">
+    <failure message="expected [Calendar Monthly View - MarkITplace] but found [Track Dashboard - MarkITplace]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Calendar Monthly View - MarkITplace] but found [Track Dashboard - MarkITplace]
+	at smokeTestFirefox.ValidateSmokeTest.ValidateCalendarPage(ValidateSmokeTest.java:944)
+</failure>
+    <system-err><![CDATA[1523860407454	Marionette	DEBUG	Received DOM event "beforeunload" for "https://markitplace.arpatech.com/track/purchase-analysis"
+1523860412570	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1523860418260	Marionette	DEBUG	Received DOM event "pagehide" for "https://markitplace.arpatech.com/track/purchase-analysis"
+1523860418262	Marionette	DEBUG	Received DOM event "unload" for "https://markitplace.arpatech.com/track/purchase-analysis"
+++DOMWINDOW == 98 (000001451A862800) [pid = 5284] [serial = 295] [outer = 0000014514061000]
+[Child 5284, Main Thread] WARNING: NS_ENSURE_TRUE(refererInner) failed: file z:/build/build/src/docshell/base/nsDocShell.cpp, line 14381
+JavaScript warning: https://markitplace.arpatech.com/js/vue/track.dashboard.4c63d5168348d0dd177d.js, line 538: unreachable code after return statement
+JavaScript warning: https://markitplace.arpatech.com/js/vue/track.dashboard.4c63d5168348d0dd177d.js, line 538: unreachable code after return statement
+1523860420371	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967589"
+1523860420373	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967585"
+1523860420455	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://markitplace.arpatech.com/track"
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+1523860423908	Marionette	DEBUG	Received DOM event "pageshow" for "https://markitplace.arpatech.com/track"
+]]></system-err>
+  </testcase>
+  <testcase name="ValidateCalendarLinks" classname="smokeTestFirefox.ValidateSmokeTest" time="10.307">
+    <failure message="Unable to locate element: #calendarSelectYearMonthly&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;DESKTOP-GAH683G&apos;, ip: &apos;10.0.2.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0a1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8868, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: 24016ab8-79f1-4cb9-bb71-1f749af5e35f&#10;*** Element info: {Using=id, value=calendarSelectYearMonthly}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #calendarSelectYearMonthly
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-GAH683G', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0a1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8868, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 24016ab8-79f1-4cb9-bb71-1f749af5e35f
+*** Element info: {Using=id, value=calendarSelectYearMonthly}
+	at smokeTestFirefox.ValidateSmokeTest.ValidateCalendarLinks(ValidateSmokeTest.java:954)
+</failure>
+    <system-err><![CDATA[[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+++DOCSHELL 000001452DE21800 == 14 [pid = 5284] [id = {7f58bab1-188c-4072-a9dc-0a2ae7a19238}]
+++DOMWINDOW == 99 (000001452DE22000) [pid = 5284] [serial = 296] [outer = 0000000000000000]
+++DOMWINDOW == 100 (000001452DF04800) [pid = 5284] [serial = 297] [outer = 000001452DE22000]
+++DOCSHELL 0000014527467800 == 15 [pid = 5284] [id = {0a446f20-2385-412f-b154-c18bfb4e7f3b}]
+++DOMWINDOW == 101 (0000014527468000) [pid = 5284] [serial = 298] [outer = 0000000000000000]
+++DOMWINDOW == 102 (0000014527468800) [pid = 5284] [serial = 299] [outer = 0000014527468000]
+++DOCSHELL 000001452E14B000 == 16 [pid = 5284] [id = {568a77e4-a58f-44bf-ab7e-3490e5f5895b}]
+++DOMWINDOW == 103 (000001452E14B800) [pid = 5284] [serial = 300] [outer = 0000000000000000]
+++DOMWINDOW == 104 (000001452E14C000) [pid = 5284] [serial = 301] [outer = 000001452E14B800]
+++DOCSHELL 000001452E155000 == 17 [pid = 5284] [id = {30abf4cb-cb82-405b-a778-aab75741e290}]
+++DOMWINDOW == 105 (000001452E155800) [pid = 5284] [serial = 302] [outer = 0000000000000000]
+++DOMWINDOW == 106 (000001452E156800) [pid = 5284] [serial = 303] [outer = 000001452E155800]
+--DOMWINDOW == 105 (000001451933C000) [pid = 5284] [serial = 44] [outer = 0000000000000000] [url = https://markitplace.arpatech.com/shop/product/10886231]
+--DOMWINDOW == 104 (000001451CE28000) [pid = 5284] [serial = 52] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 103 (0000014513C03000) [pid = 5284] [serial = 48] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 102 (00000145234C3000) [pid = 5284] [serial = 187] [outer = 0000000000000000] [url = about:srcdoc]
+--DOMWINDOW == 101 (00000145239D1000) [pid = 5284] [serial = 188] [outer = 0000000000000000] [url = about:srcdoc]
+--DOMWINDOW == 100 (000001452535B000) [pid = 5284] [serial = 189] [outer = 0000000000000000] [url = about:srcdoc]
+--DOMWINDOW == 99 (000001452E418800) [pid = 5284] [serial = 192] [outer = 0000000000000000] [url = about:srcdoc]
+--DOMWINDOW == 98 (000001451B2B3800) [pid = 5284] [serial = 190] [outer = 0000000000000000] [url = about:srcdoc]
+--DOMWINDOW == 97 (000001452C10A000) [pid = 5284] [serial = 191] [outer = 0000000000000000] [url = about:srcdoc]
+--DOMWINDOW == 96 (000001452B5CC000) [pid = 5284] [serial = 183] [outer = 0000000000000000] [url = https://markitplace.arpatech.com/shop]
+--DOMWINDOW == 95 (0000014531A3D000) [pid = 5284] [serial = 279] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 94 (0000014534256800) [pid = 5284] [serial = 283] [outer = 0000000000000000] [url = about:blank]
+]]></system-err>
+  </testcase>
+  <testcase name="ValidateAllReportsLinks" classname="smokeTestFirefox.ValidateSmokeTest" time="83.022">
+    <failure message="Timeout loading page after 50000ms&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;DESKTOP-GAH683G&apos;, ip: &apos;10.0.2.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0a1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8868, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: 24016ab8-79f1-4cb9-bb71-1f749af5e35f" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Timeout loading page after 50000ms
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-GAH683G', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0a1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8868, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 24016ab8-79f1-4cb9-bb71-1f749af5e35f
+	at smokeTestFirefox.ValidateSmokeTest.ValidateAllReportsLinks(ValidateSmokeTest.java:1057)
+</failure>
+    <system-err><![CDATA[--DOMWINDOW == 93 (000001452E14B800) [pid = 5284] [serial = 300] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 92 (00000145270C5000) [pid = 5284] [serial = 287] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 91 (000001452754D800) [pid = 5284] [serial = 291] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 90 (000001452DE22000) [pid = 5284] [serial = 296] [outer = 0000000000000000] [url = about:blank]
+++DOMWINDOW == 91 (0000014513CD9800) [pid = 5284] [serial = 304] [outer = 0000014514061000]
+[Child 5284, Main Thread] WARNING: Detected really long delay between samples, continuing from previous sample: file z:/build/build/src/dom/smil/nsSMILAnimationController.cpp, line 156
+[Parent 8868, Main Thread] WARNING: NS_ENSURE_SUCCESS(rv, rv) failed with result 0x80070057: file z:/build/build/src/netwerk/base/nsChannelClassifier.cpp, line 342
+[Parent 8868, Main Thread] WARNING: NS_ENSURE_SUCCESS(rv, rv) failed with result 0x80070057: file z:/build/build/src/netwerk/base/nsChannelClassifier.cpp, line 342
+[Child 5284, Main Thread] WARNING: Detected really long delay between samples, continuing from previous sample: file z:/build/build/src/dom/smil/nsSMILAnimationController.cpp, line 156
+1523860467459	Marionette	DEBUG	Received DOM event "beforeunload" for "https://markitplace.arpatech.com/track/reports/assets"
+1523860467559	Marionette	DEBUG	Received DOM event "pagehide" for "https://markitplace.arpatech.com/track/reports/assets"
+1523860467564	Marionette	DEBUG	Received DOM event "unload" for "https://markitplace.arpatech.com/track/reports/assets"
+++DOMWINDOW == 92 (000001451CD42000) [pid = 5284] [serial = 305] [outer = 0000014514061000]
+JavaScript warning: https://markitplace.arpatech.com/js/vue/track.dashboard.4c63d5168348d0dd177d.js, line 538: unreachable code after return statement
+JavaScript warning: https://markitplace.arpatech.com/js/vue/track.dashboard.4c63d5168348d0dd177d.js, line 538: unreachable code after return statement
+--DOMWINDOW == 91 (000001452DF04800) [pid = 5284] [serial = 297] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 90 (000001452E14C000) [pid = 5284] [serial = 301] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 89 (00000145270C5800) [pid = 5284] [serial = 288] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 88 (000001452754E800) [pid = 5284] [serial = 292] [outer = 0000000000000000] [url = about:blank]
+1523860469812	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://markitplace.arpatech.com/track"
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+++DOCSHELL 000001452120F000 == 18 [pid = 5284] [id = {4fb225b1-63bb-4ebf-9483-d6d00f96b52b}]
+++DOMWINDOW == 89 (0000014521210000) [pid = 5284] [serial = 306] [outer = 0000000000000000]
+++DOMWINDOW == 90 (0000014521212000) [pid = 5284] [serial = 307] [outer = 0000014521210000]
+++DOCSHELL 000001451CDAC000 == 19 [pid = 5284] [id = {88574cde-5215-4586-bc50-130ec332ac0d}]
+++DOMWINDOW == 91 (0000014521524800) [pid = 5284] [serial = 308] [outer = 0000000000000000]
+++DOMWINDOW == 92 (0000014521525800) [pid = 5284] [serial = 309] [outer = 0000014521524800]
+++DOCSHELL 0000014521763800 == 20 [pid = 5284] [id = {8869a8f2-4140-42a5-a35c-64c877031835}]
+++DOMWINDOW == 93 (0000014521764000) [pid = 5284] [serial = 310] [outer = 0000000000000000]
+++DOMWINDOW == 94 (0000014521764800) [pid = 5284] [serial = 311] [outer = 0000014521764000]
+++DOCSHELL 0000014521772000 == 21 [pid = 5284] [id = {792c0c3b-1c19-4633-a24b-fbabde29b5f8}]
+++DOMWINDOW == 95 (0000014521773800) [pid = 5284] [serial = 312] [outer = 0000000000000000]
+++DOMWINDOW == 96 (0000014521774800) [pid = 5284] [serial = 313] [outer = 0000014521773800]
+1523860474646	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967602"
+1523860474655	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967606"
+--DOMWINDOW == 95 (0000014521764000) [pid = 5284] [serial = 310] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 94 (0000014521210000) [pid = 5284] [serial = 306] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 93 (0000014527468000) [pid = 5284] [serial = 298] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 92 (000001452E155800) [pid = 5284] [serial = 302] [outer = 0000000000000000] [url = about:blank]
+--DOCSHELL 0000014521763800 == 20 [pid = 5284] [id = {8869a8f2-4140-42a5-a35c-64c877031835}]
+--DOCSHELL 000001452120F000 == 19 [pid = 5284] [id = {4fb225b1-63bb-4ebf-9483-d6d00f96b52b}]
+--DOCSHELL 000001452E155000 == 18 [pid = 5284] [id = {30abf4cb-cb82-405b-a778-aab75741e290}]
+--DOCSHELL 000001452E14B000 == 17 [pid = 5284] [id = {568a77e4-a58f-44bf-ab7e-3490e5f5895b}]
+--DOCSHELL 0000014527467800 == 16 [pid = 5284] [id = {0a446f20-2385-412f-b154-c18bfb4e7f3b}]
+--DOCSHELL 000001452DE21800 == 15 [pid = 5284] [id = {7f58bab1-188c-4072-a9dc-0a2ae7a19238}]
+--DOCSHELL 00000145270C4000 == 14 [pid = 5284] [id = {c3e82afa-f7de-4580-85a5-ab57e30f4b22}]
+--DOCSHELL 00000145273EE800 == 13 [pid = 5284] [id = {7b89bedb-d8b8-4f29-b1b2-fdbb0387e6ac}]
+--DOCSHELL 000001452754D000 == 12 [pid = 5284] [id = {7aae5207-6683-4ddc-8d8f-9fff8a45c5e8}]
+--DOCSHELL 0000014527552000 == 11 [pid = 5284] [id = {3a68cf28-6f99-49be-bd9f-7ef27a147f8c}]
+--DOMWINDOW == 91 (0000014526316000) [pid = 5284] [serial = 176] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 90 (0000014526433000) [pid = 5284] [serial = 180] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 89 (0000014529AB5000) [pid = 5284] [serial = 167] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 88 (0000014521CA4000) [pid = 5284] [serial = 171] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 87 (000001451ED67000) [pid = 5284] [serial = 135] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 86 (00000145277DF000) [pid = 5284] [serial = 139] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 85 (00000145233D5000) [pid = 5284] [serial = 126] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 84 (00000145234B9800) [pid = 5284] [serial = 130] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 83 (0000014526F8A800) [pid = 5284] [serial = 117] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 82 (0000014526FA4000) [pid = 5284] [serial = 121] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 81 (000001451983D000) [pid = 5284] [serial = 182] [outer = 0000000000000000] [url = https://markitplace.arpatech.com/shop/order-confirmation/11335656]
+--DOMWINDOW == 80 (0000014519F81800) [pid = 5284] [serial = 195] [outer = 0000000000000000] [url = https://markitplace.arpatech.com/shop]
+--DOMWINDOW == 79 (000001453A529800) [pid = 5284] [serial = 237] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 78 (000001453A22A000) [pid = 5284] [serial = 241] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 77 (000001452A0B2800) [pid = 5284] [serial = 242] [outer = 0000000000000000] [url = https://markitplace.arpatech.com/shop/special-offers]
+--DOMWINDOW == 76 (0000014513CDB800) [pid = 5284] [serial = 181] [outer = 0000000000000000] [url = https://markitplace.arpatech.com/shop/cart/checkout]
+--DOMWINDOW == 75 (0000014521371000) [pid = 5284] [serial = 100] [outer = 0000000000000000] [url = about:srcdoc]
+--DOMWINDOW == 74 (000001451BEA0000) [pid = 5284] [serial = 87] [outer = 0000000000000000] [url = https://markitplace.arpatech.com/shipping-address]
+--DOMWINDOW == 73 (0000014520958000) [pid = 5284] [serial = 93] [outer = 0000000000000000] [url = https://markitplace.arpatech.com/shop]
+--DOMWINDOW == 72 (000001451D596000) [pid = 5284] [serial = 149] [outer = 0000000000000000] [url = https://markitplace.arpatech.com/shop/resources]
+--DOMWINDOW == 71 (000001452BF77800) [pid = 5284] [serial = 215] [outer = 0000000000000000] [url = https://markitplace.arpatech.com/shop/standards]
+--DOMWINDOW == 70 (0000014531E9F800) [pid = 5284] [serial = 224] [outer = 0000000000000000] [url = https://markitplace.arpatech.com/all-products]
+--DOMWINDOW == 69 (0000014534C8E800) [pid = 5284] [serial = 230] [outer = 0000000000000000] [url = https://markitplace.arpatech.com/shop/resources]
+--DOMWINDOW == 68 (000001453183E800) [pid = 5284] [serial = 254] [outer = 0000000000000000] [url = https://markitplace.arpatech.com/shop/favorites]
+--DOMWINDOW == 67 (0000014537524000) [pid = 5284] [serial = 268] [outer = 0000000000000000] [url = https://markitplace.arpatech.com/track]
+--DOMWINDOW == 66 (000001453421E000) [pid = 5284] [serial = 223] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 65 (000001453425C800) [pid = 5284] [serial = 219] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 64 (0000014520B29000) [pid = 5284] [serial = 212] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 63 (000001452E4CE800) [pid = 5284] [serial = 208] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 62 (0000014537521800) [pid = 5284] [serial = 267] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 61 (000001453A5CC800) [pid = 5284] [serial = 263] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 60 (000001452E9D5000) [pid = 5284] [serial = 204] [outer = 0000000000000000] [url = about:srcdoc]
+--DOMWINDOW == 59 (000001452E9CA800) [pid = 5284] [serial = 203] [outer = 0000000000000000] [url = about:srcdoc]
+--DOMWINDOW == 58 (000001452E492800) [pid = 5284] [serial = 202] [outer = 0000000000000000] [url = about:srcdoc]
+--DOMWINDOW == 57 (000001452E47F800) [pid = 5284] [serial = 201] [outer = 0000000000000000] [url = about:srcdoc]
+--DOMWINDOW == 56 (000001452E478800) [pid = 5284] [serial = 200] [outer = 0000000000000000] [url = about:srcdoc]
+--DOMWINDOW == 55 (000001452E162000) [pid = 5284] [serial = 199] [outer = 0000000000000000] [url = about:srcdoc]
+--DOMWINDOW == 54 (0000014526080800) [pid = 5284] [serial = 99] [outer = 0000000000000000] [url = about:srcdoc]
+--DOMWINDOW == 53 (000001452607D000) [pid = 5284] [serial = 98] [outer = 0000000000000000] [url = about:srcdoc]
+--DOMWINDOW == 52 (000001452621E800) [pid = 5284] [serial = 97] [outer = 0000000000000000] [url = about:srcdoc]
+--DOMWINDOW == 51 (000001452E156800) [pid = 5284] [serial = 303] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 50 (0000014527468800) [pid = 5284] [serial = 299] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 49 (000001451A862800) [pid = 5284] [serial = 295] [outer = 0000000000000000] [url = https://markitplace.arpatech.com/track]
+--DOMWINDOW == 48 (0000014536123000) [pid = 5284] [serial = 276] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 47 (000001452A702800) [pid = 5284] [serial = 272] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 46 (000001453247E000) [pid = 5284] [serial = 253] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 45 (0000014526424800) [pid = 5284] [serial = 160] [outer = 0000000000000000] [url = https://markitplace.arpatech.com/shop/special-offers]
+--DOMWINDOW == 44 (00000145239DB800) [pid = 5284] [serial = 159] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 43 (0000014525371000) [pid = 5284] [serial = 155] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 42 (000001453239B800) [pid = 5284] [serial = 249] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 41 (0000014521764800) [pid = 5284] [serial = 311] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 40 (0000014521212000) [pid = 5284] [serial = 307] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 39 (0000014513CD9800) [pid = 5284] [serial = 304] [outer = 0000000000000000] [url = https://markitplace.arpatech.com/track/reports/assets]
+--DOMWINDOW == 38 (000001451A00D000) [pid = 5284] [serial = 67] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 37 (0000014517EB6000) [pid = 5284] [serial = 102] [outer = 0000000000000000] [url = about:srcdoc]
+--DOMWINDOW == 36 (0000014519871800) [pid = 5284] [serial = 63] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 35 (0000014513CD2800) [pid = 5284] [serial = 101] [outer = 0000000000000000] [url = about:srcdoc]
+--DOMWINDOW == 34 (0000014513C20000) [pid = 5284] [serial = 59] [outer = 0000000000000000] [url = about:srcdoc]
+--DOMWINDOW == 33 (0000014513C17000) [pid = 5284] [serial = 58] [outer = 0000000000000000] [url = about:srcdoc]
+--DOMWINDOW == 32 (000001451AE33000) [pid = 5284] [serial = 57] [outer = 0000000000000000] [url = about:srcdoc]
+--DOMWINDOW == 31 (0000014520B32800) [pid = 5284] [serial = 140] [outer = 0000000000000000] [url = https://markitplace.arpatech.com/shop/results?q=Audio+Cables&category=1]
+--DOMWINDOW == 30 (0000014518F50800) [pid = 5284] [serial = 82] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 29 (000001451ADB8800) [pid = 5284] [serial = 86] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 28 (000001451D592000) [pid = 5284] [serial = 172] [outer = 0000000000000000] [url = https://markitplace.arpatech.com/shop/cart]
+--DOMWINDOW == 27 (0000014518FD0800) [pid = 5284] [serial = 106] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 26 (000001451B2B6800) [pid = 5284] [serial = 144] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 25 (000001451CE1F800) [pid = 5284] [serial = 110] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 24 (000001452A71C800) [pid = 5284] [serial = 148] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 23 (000001452222C800) [pid = 5284] [serial = 113] [outer = 0000000000000000] [url = https://markitplace.arpatech.com/shop/standards]
+--DOMWINDOW == 22 (000001451B2AC800) [pid = 5284] [serial = 68] [outer = 0000000000000000] [url = about:srcdoc]
+--DOMWINDOW == 21 (000001451B2BF000) [pid = 5284] [serial = 69] [outer = 0000000000000000] [url = about:srcdoc]
+--DOMWINDOW == 20 (000001451B2C6000) [pid = 5284] [serial = 70] [outer = 0000000000000000] [url = about:srcdoc]
+--DOMWINDOW == 19 (0000014518FC7000) [pid = 5284] [serial = 122] [outer = 0000000000000000] [url = https://markitplace.arpatech.com/shop/standard/11298132]
+--DOMWINDOW == 18 (0000014518F5C800) [pid = 5284] [serial = 73] [outer = 0000000000000000] [url = https://markitplace.arpatech.com/my-profile]
+--DOMWINDOW == 17 (0000014521780000) [pid = 5284] [serial = 131] [outer = 0000000000000000] [url = https://markitplace.arpatech.com/all-products]
+--DOMWINDOW == 16 (0000014513D1D000) [pid = 5284] [serial = 53] [outer = 0000000000000000] [url = https://markitplace.arpatech.com/shop]
+--DOMWINDOW == 15 (00000145349CE000) [pid = 5284] [serial = 284] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 14 (0000014529CD5800) [pid = 5284] [serial = 280] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 13 (0000014527552800) [pid = 5284] [serial = 293] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 12 (00000145273EF000) [pid = 5284] [serial = 289] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 11 (0000014529CD6000) [pid = 5284] [serial = 281] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 10 (0000014516122800) [pid = 5284] [serial = 290] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 9 (00000145349CF800) [pid = 5284] [serial = 285] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 8 (0000014527555800) [pid = 5284] [serial = 294] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 7 (000001452A079800) [pid = 5284] [serial = 277] [outer = 0000000000000000] [url = https://markitplace.arpatech.com/track/orders]
+--DOMWINDOW == 6 (0000014513C0E800) [pid = 5284] [serial = 286] [outer = 0000000000000000] [url = https://markitplace.arpatech.com/track/purchase-analysis]
+]]></system-err>
+  </testcase>
+  <testcase name="ValidateSavedReports" classname="smokeTestFirefox.ValidateSmokeTest" time="50.026">
+    <failure message="Timeout loading page after 50000ms&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;DESKTOP-GAH683G&apos;, ip: &apos;10.0.2.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0a1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8868, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: 24016ab8-79f1-4cb9-bb71-1f749af5e35f" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Timeout loading page after 50000ms
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-GAH683G', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0a1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8868, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 24016ab8-79f1-4cb9-bb71-1f749af5e35f
+	at smokeTestFirefox.ValidateSmokeTest.ValidateSavedReports(ValidateSmokeTest.java:1419)
+</failure>
+    <system-err><![CDATA[1523860517717	Marionette	DEBUG	Received DOM event "beforeunload" for "https://markitplace.arpatech.com/track"
+1523860520229	Marionette	DEBUG	Received DOM event "pagehide" for "https://markitplace.arpatech.com/track"
+1523860520231	Marionette	DEBUG	Received DOM event "unload" for "https://markitplace.arpatech.com/track"
+++DOMWINDOW == 7 (0000014513CCE800) [pid = 5284] [serial = 314] [outer = 0000014514061000]
+[Child 5284, Main Thread] WARNING: Detected really long delay between samples, continuing from previous sample: file z:/build/build/src/dom/smil/nsSMILAnimationController.cpp, line 156
+--DOCSHELL 0000014521772000 == 10 [pid = 5284] [id = {792c0c3b-1c19-4633-a24b-fbabde29b5f8}]
+--DOCSHELL 000001451CDAC000 == 9 [pid = 5284] [id = {88574cde-5215-4586-bc50-130ec332ac0d}]
+1523860521204	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967608"
+1523860521205	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967604"
+1523860524352	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://markitplace.arpatech.com/saved-reports"
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+++DOCSHELL 0000014516DB8800 == 10 [pid = 5284] [id = {5818f01a-c479-49ee-a0cd-7c1aad4ef971}]
+++DOMWINDOW == 8 (0000014518C18800) [pid = 5284] [serial = 315] [outer = 0000000000000000]
+++DOMWINDOW == 9 (0000014518C19800) [pid = 5284] [serial = 316] [outer = 0000014518C18800]
+++DOCSHELL 000001451983B800 == 11 [pid = 5284] [id = {849357c6-b490-4046-b6a6-ed69aee64050}]
+++DOMWINDOW == 10 (000001451983C000) [pid = 5284] [serial = 317] [outer = 0000000000000000]
+++DOMWINDOW == 11 (000001451983C800) [pid = 5284] [serial = 318] [outer = 000001451983C000]
+++DOCSHELL 0000014519886000 == 12 [pid = 5284] [id = {18a1bd4c-4880-49ca-9822-fe9de8af25f7}]
+++DOMWINDOW == 12 (0000014519886800) [pid = 5284] [serial = 319] [outer = 0000000000000000]
+++DOMWINDOW == 13 (0000014519887000) [pid = 5284] [serial = 320] [outer = 0000014519886800]
+++DOCSHELL 0000014513CCC000 == 13 [pid = 5284] [id = {bbfdb9d8-9f87-43e8-a6fd-c1f02fd0377b}]
+++DOMWINDOW == 14 (000001451989C000) [pid = 5284] [serial = 321] [outer = 0000000000000000]
+++DOMWINDOW == 15 (000001451989C800) [pid = 5284] [serial = 322] [outer = 000001451989C000]
+1523860527672	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967611"
+1523860527680	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967615"
+--DOMWINDOW == 14 (0000014521773800) [pid = 5284] [serial = 312] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 13 (0000014521524800) [pid = 5284] [serial = 308] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 12 (0000014518C18800) [pid = 5284] [serial = 315] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 11 (0000014519886800) [pid = 5284] [serial = 319] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 10 (000001451CD42000) [pid = 5284] [serial = 305] [outer = 0000000000000000] [url = https://markitplace.arpatech.com/track]
+--DOMWINDOW == 9 (0000014518C19800) [pid = 5284] [serial = 316] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 8 (0000014519887000) [pid = 5284] [serial = 320] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 7 (0000014521525800) [pid = 5284] [serial = 309] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 6 (0000014521774800) [pid = 5284] [serial = 313] [outer = 0000000000000000] [url = about:blank]
+--DOCSHELL 0000014516DB8800 == 12 [pid = 5284] [id = {5818f01a-c479-49ee-a0cd-7c1aad4ef971}]
+--DOCSHELL 0000014519886000 == 11 [pid = 5284] [id = {18a1bd4c-4880-49ca-9822-fe9de8af25f7}]
+]]></system-err>
+  </testcase>
+  <testcase name="ValidateCompaePage" classname="smokeTestFirefox.ValidateSmokeTest" time="30.63">
+    <failure message="expected [Product Compare - MarkITplace] but found [Printers - MarkITplace]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Product Compare - MarkITplace] but found [Printers - MarkITplace]
+	at smokeTestFirefox.ValidateSmokeTest.ValidateCompaePage(ValidateSmokeTest.java:1462)
+</failure>
+    <system-err><![CDATA[[Parent 8868, Main Thread] WARNING: NS_ENSURE_SUCCESS(rv, rv) failed with result 0x80070057: file z:/build/build/src/netwerk/base/nsChannelClassifier.cpp, line 342
+[Parent 8868, Main Thread] WARNING: NS_ENSURE_SUCCESS(status, status) failed with result 0x804B0002: file z:/build/build/src/netwerk/protocol/http/nsCORSListenerProxy.cpp, line 1314
+[Parent 8868, Main Thread] WARNING: NS_ENSURE_SUCCESS(rv, rv) failed with result 0x80070057: file z:/build/build/src/netwerk/base/nsChannelClassifier.cpp, line 342
+[Parent 8868, Main Thread] WARNING: NS_ENSURE_SUCCESS(status, status) failed with result 0x804B0002: file z:/build/build/src/netwerk/protocol/http/nsCORSListenerProxy.cpp, line 1314
+[Parent 8868, Main Thread] WARNING: NS_ENSURE_SUCCESS(rv, rv) failed with result 0x80070057: file z:/build/build/src/netwerk/base/nsChannelClassifier.cpp, line 342
+[Parent 8868, Main Thread] WARNING: NS_ENSURE_SUCCESS(status, status) failed with result 0x804B0002: file z:/build/build/src/netwerk/protocol/http/nsCORSListenerProxy.cpp, line 1314
+[Parent 8868, Main Thread] WARNING: NS_ENSURE_SUCCESS(rv, rv) failed with result 0x80070057: file z:/build/build/src/netwerk/base/nsChannelClassifier.cpp, line 342
+[Parent 8868, Main Thread] WARNING: NS_ENSURE_SUCCESS(status, status) failed with result 0x804B0002: file z:/build/build/src/netwerk/protocol/http/nsCORSListenerProxy.cpp, line 1314
+[Parent 8868, Main Thread] WARNING: NS_ENSURE_SUCCESS(rv, rv) failed with result 0x80070057: file z:/build/build/src/netwerk/base/nsChannelClassifier.cpp, line 342
+[Parent 8868, Main Thread] WARNING: NS_ENSURE_SUCCESS(status, status) failed with result 0x804B0002: file z:/build/build/src/netwerk/protocol/http/nsCORSListenerProxy.cpp, line 1314
+[Parent 8868, Main Thread] WARNING: NS_ENSURE_SUCCESS(rv, rv) failed with result 0x80070057: file z:/build/build/src/netwerk/base/nsChannelClassifier.cpp, line 342
+[Parent 8868, Main Thread] WARNING: NS_ENSURE_SUCCESS(status, status) failed with result 0x804B0002: file z:/build/build/src/netwerk/protocol/http/nsCORSListenerProxy.cpp, line 1314
+[Parent 8868, Main Thread] WARNING: NS_ENSURE_SUCCESS(status, status) failed with result 0x804B0002: file z:/build/build/src/netwerk/protocol/http/nsCORSListenerProxy.cpp, line 1314
+[Parent 8868, Main Thread] WARNING: NS_ENSURE_SUCCESS(rv, rv) failed with result 0x80070057: file z:/build/build/src/netwerk/base/nsChannelClassifier.cpp, line 342
+[Parent 8868, Main Thread] WARNING: NS_ENSURE_SUCCESS(status, status) failed with result 0x804B0002: file z:/build/build/src/netwerk/protocol/http/nsCORSListenerProxy.cpp, line 1314
+++DOMWINDOW == 7 (0000014513D19000) [pid = 5284] [serial = 323] [outer = 0000014514061000]
+--DOCSHELL 0000014513CCC000 == 10 [pid = 5284] [id = {bbfdb9d8-9f87-43e8-a6fd-c1f02fd0377b}]
+--DOCSHELL 000001451983B800 == 9 [pid = 5284] [id = {849357c6-b490-4046-b6a6-ed69aee64050}]
+[Child 5284, Main Thread] WARNING: Detected really long delay between samples, continuing from previous sample: file z:/build/build/src/dom/smil/nsSMILAnimationController.cpp, line 156
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+++DOCSHELL 000001451AE2F800 == 10 [pid = 5284] [id = {d0ecbc75-2b90-40aa-a140-c8ab32dde391}]
+++DOMWINDOW == 8 (000001451AE3C000) [pid = 5284] [serial = 324] [outer = 0000000000000000]
+++DOMWINDOW == 9 (000001451AE3F800) [pid = 5284] [serial = 325] [outer = 000001451AE3C000]
+++DOCSHELL 0000014513C03000 == 11 [pid = 5284] [id = {7fa663c6-4461-4042-a21c-b0247cd929c8}]
+++DOMWINDOW == 10 (000001451BE8D800) [pid = 5284] [serial = 326] [outer = 0000000000000000]
+++DOMWINDOW == 11 (000001451BE8F000) [pid = 5284] [serial = 327] [outer = 000001451BE8D800]
+++DOCSHELL 000001451C430000 == 12 [pid = 5284] [id = {61ef4f9c-1fb1-43db-b224-ef6435274fdc}]
+++DOMWINDOW == 12 (000001451C430800) [pid = 5284] [serial = 328] [outer = 0000000000000000]
+++DOMWINDOW == 13 (000001451C431800) [pid = 5284] [serial = 329] [outer = 000001451C430800]
+++DOCSHELL 000001451C58F000 == 13 [pid = 5284] [id = {67ab9f04-1804-4fb9-ac41-45aa4ea43a60}]
+++DOMWINDOW == 14 (000001451C58F800) [pid = 5284] [serial = 330] [outer = 0000000000000000]
+++DOMWINDOW == 15 (000001451C590000) [pid = 5284] [serial = 331] [outer = 000001451C58F800]
+1523860586273	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967620"
+1523860586284	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967624"
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+1523860587223	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+1523860587939	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+1523860588215	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+[Child 5284, Main Thread] WARNING: blocked access to response header: file z:/build/build/src/dom/xhr/XMLHttpRequestMainThread.cpp, line 1171
+--DOMWINDOW == 14 (000001451AE3C000) [pid = 5284] [serial = 324] [outer = 0000000000000000] [url = about:blank]
+--DOMWINDOW == 13 (000001451C430800) [pid = 5284] [serial = 328] [outer = 0000000000000000] [url = about:blank]
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [SmokeTestSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Package1.listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="ValidateSmokeTests(failed)" verbose="0">
+    <classes>
+      <class name="smokeTestFirefox.ValidateSmokeTest">
+        <methods>
+          <include name="ValidateSavedReports"/>
+          <include name="ValidateRecentViewLink"/>
+          <include name="ValidateCalendarPage"/>
+          <include name="ValidateCompaePage"/>
+          <include name="closebrowser"/>
+          <include name="ValidateAllReportsLinks"/>
+          <include name="ValidateCalendarLinks"/>
+        </methods>
+      </class> <!-- smokeTestFirefox.ValidateSmokeTest -->
+    </classes>
+  </test> <!-- ValidateSmokeTests(failed) -->
+</suite> <!-- Failed suite [SmokeTestSuite] -->
