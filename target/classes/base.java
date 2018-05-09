@@ -33,7 +33,7 @@ import pageObjects.LoginPage;
 	public WebDriver initializeDriver() throws IOException
 	{
 		Properties prop = new Properties();
-		FileInputStream fis = new FileInputStream("C:\\Program Files (x86)\\Jenkins\\workspace\\UATSmokeFirefox\\src\\main\\java\\resources\\data.properties");
+		FileInputStream fis = new FileInputStream("C:\\Users\\bilaw\\.jenkins\\workspace\\SmokeTestFirefoxUAT\\src\\main\\java\\resources\\data.properties");
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");
 		url = prop.getProperty("url");
@@ -50,10 +50,10 @@ import pageObjects.LoginPage;
 		else if(browserName.equals("firefox"))
 		{
 			System.setProperty("webdriver.gecko.driver", "C:\\driver\\geckodriver.exe");
-			FirefoxOptions options = new FirefoxOptions();
-			options.setBinary("C:\\Users\\bilaw\\Downloads\\target\\firefox\\firefox.exe");
-			//driver = new FirefoxDriver();
-			 driver = new FirefoxDriver(options);
+			//FirefoxOptions options = new FirefoxOptions();
+			//options.setBinary("C:\\Users\\bilaw\\Downloads\\target\\firefox\\firefox.exe");
+			driver = new FirefoxDriver();
+			 //driver = new FirefoxDriver(options);
 		}
 		else if(browserName.equals("ie"))
 		{

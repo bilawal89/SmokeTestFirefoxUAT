@@ -1,4 +1,4 @@
-activeProfiles=UATSmokeFirefox
+activeProfiles=SmokeTestFirefoxUAT
 eclipse.preferences.version=1
 resolveWorkspaceProjects=true
 version=1
