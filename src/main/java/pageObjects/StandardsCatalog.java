@@ -18,7 +18,7 @@ public class StandardsCatalog {
 	By Product1 = By.xpath("//img[@alt='10032.']");
 	
 	By Product1New=By.xpath("//img[@alt='Miraca monitor']");
-	By Add2cartbtn=By.xpath("//a[@id='add_to_cart_desk_10886231");
+	By Add2cartbtn=By.xpath("//a[@class='add_to_cart btn btn-primary show-for-tablet modal-btn hide-for-print']");
 	By Closeicon=By.xpath("(//button[@title='Close (Esc)'])[2]");
 	By Closeicon2=By.xpath("(//button[@class='mfp-close' and @type='button'])[1]");
 	By Product2New=By.xpath("//img[@alt='OfficeJet']");

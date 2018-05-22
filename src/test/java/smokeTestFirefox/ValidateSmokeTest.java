@@ -70,7 +70,7 @@ public class ValidateSmokeTest extends base {
 
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 1,enabled=false)
 
 	public void ValidateFavoriteIcon() throws InterruptedException {
 		Header hd = new Header(driver);
