@@ -1,1 +1,13 @@
 08:33:19.159 [main] INFO  resources.base - User Have Successfully Login To The Home Page
+09:04:14.951 [main] INFO  resources.base - User Have Successfully Login To The Home Page
+09:05:46.717 [main] INFO  resources.base - Recently Viewed Page is Opened
+09:05:56.951 [main] INFO  resources.base - User has clicked the Logo from the footer of the page
+09:05:56.951 [main] INFO  resources.base - User Have reached the Home Page clicking on the footer Logo
+09:06:15.842 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+09:06:15.857 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+09:06:22.889 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+09:06:36.377 [main] INFO  resources.base - User has clicked the Logo from the header of the page
+09:06:36.381 [main] INFO  resources.base - User Have reached the Home Page clicking on the Header Logo
+09:06:53.748 [main] INFO  resources.base - User has clicked on the Standard Catalog Navigation button from header
+09:06:59.764 [main] INFO  resources.base - User Have reached the Standard Catalog Page
+09:07:26.952 [main] INFO  resources.base - User has clicked on the 1st Standard Product appearing and reached the PDP Page

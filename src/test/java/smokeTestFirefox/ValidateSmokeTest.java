@@ -489,11 +489,13 @@ Srp.getProduct4Cart().click();
 		}
 
 		Assert.assertEquals(title, exp);
-		wt.until(ExpectedConditions.elementToBeClickable(St.getAdd2cartbtn()));
+		/*16-may-2018-
+		 * wt.until(ExpectedConditions.elementToBeClickable(St.getAdd2cartbtn()));
 		St.getAdd2cartbtn().click();
 		wt.until(ExpectedConditions.elementToBeClickable(St.getCloseicon()));
 		St.getCloseicon().click();
 		Thread.sleep(3000);
+		*/
 	}
 
 	@Test(priority = 12)
