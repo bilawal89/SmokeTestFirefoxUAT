@@ -635,6 +635,7 @@ Srp.getProduct4Cart().click();
 		CartPage CP = new CartPage(driver);
 		wait.until(ExpectedConditions.elementToBeClickable(CP.getCheckoutBtnFF()));
 		CP.getCheckoutBtnFF().click();
+		Thread.sleep(20000);
 		// String actitle=driver.getTitle();
 		// String extitle= "Checkout - MarkITplace";
 		CheckoutPage CO = new CheckoutPage(driver);

@@ -11,3 +11,131 @@
 09:06:53.748 [main] INFO  resources.base - User has clicked on the Standard Catalog Navigation button from header
 09:06:59.764 [main] INFO  resources.base - User Have reached the Standard Catalog Page
 09:07:26.952 [main] INFO  resources.base - User has clicked on the 1st Standard Product appearing and reached the PDP Page
+09:17:49.483 [main] INFO  resources.base - User Have Successfully Login To The Home Page
+09:19:00.897 [main] INFO  resources.base - Recently Viewed Page is Opened
+09:19:05.802 [main] INFO  resources.base - User has clicked the Logo from the footer of the page
+09:19:05.802 [main] INFO  resources.base - User Have reached the Home Page clicking on the footer Logo
+09:19:14.269 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+09:19:14.275 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+09:19:18.870 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+09:19:23.342 [main] INFO  resources.base - User has clicked the Logo from the header of the page
+09:19:23.342 [main] INFO  resources.base - User Have reached the Home Page clicking on the Header Logo
+09:19:30.424 [main] INFO  resources.base - User has clicked on the Standard Catalog Navigation button from header
+09:19:36.436 [main] INFO  resources.base - User Have reached the Standard Catalog Page
+09:19:53.843 [main] INFO  resources.base - User has clicked on the 1st Standard Product appearing and reached the PDP Page
+09:20:02.979 [main] INFO  resources.base - User has clicked on All Product Nevigation button from the header
+09:20:07.983 [main] INFO  resources.base - User Have reached the All Product Page
+09:20:36.436 [main] INFO  resources.base - User has clicked on Audio Cables Category From All Products Page
+09:20:36.436 [main] INFO  resources.base - User Have reached the Audio Cables Category Page
+09:20:47.857 [main] INFO  resources.base - User has clicked on Resouces link from the header
+09:20:47.857 [main] INFO  resources.base - User Have reached the Resources Page
+09:20:59.911 [main] INFO  resources.base - User has clicked on Special Offer Link from the header
+09:20:59.911 [main] INFO  resources.base - User Have reached the Special Offer Page
+09:21:07.123 [main] INFO  resources.base - User has clicked on Cart Icon from the header
+09:21:07.123 [main] INFO  resources.base - User Have reached the Shopping Cart Page
+09:21:48.874 [main] INFO  resources.base - User has clicked the Logo from the header of the page
+09:21:48.918 [main] INFO  resources.base - User Have reached the Home Page clicking on the Header Logo
+09:21:53.139 [main] INFO  resources.base - User has clicked the Logo from the footer of the page
+09:21:53.155 [main] INFO  resources.base - User Have reached the Home Page clicking on the footer Logo
+09:22:00.671 [main] INFO  resources.base - User has clicked on the Standard Catalog Link from the footer of the page
+09:22:00.689 [main] INFO  resources.base - User Have reached the Standard Product page after clicking on the Standard Catalog Link from the footer of the page
+09:22:03.731 [main] INFO  resources.base - User has clicked on the All product Link from the footer of the page
+09:22:03.733 [main] INFO  resources.base - User Have reached the All Product page after clicking on the Standard Catalog Link from the footer of the page
+09:22:14.123 [main] INFO  resources.base - User has clicked on the resources  Link from the footer of the page
+09:22:14.139 [main] INFO  resources.base - User Have reached the resources page after clicking on the resources Link from the footer of the page
+09:22:20.655 [main] INFO  resources.base - User has clicked on the Special offer Link from the footer of the page
+09:22:20.655 [main] INFO  resources.base - User Have reached the Special offer after clicking on the Special offer Link from the footer of the page
+09:22:25.795 [main] INFO  resources.base - User has clicked on the Special offer Link from the footer of the page
+09:22:25.795 [main] INFO  resources.base - User Have reached the Favorites after clicking on the Favorites Link from the footer of the page
+09:22:34.093 [main] INFO  resources.base - User has clicked on the Track button from the header of the page
+09:22:54.099 [main] INFO  resources.base - User have reached the Track page after clicking on the Track button from the header of the page
+09:23:02.654 [main] INFO  resources.base - User has clicked on the order button from the header of the page
+09:23:12.658 [main] INFO  resources.base - User have reached the Order page after clicking on the Order button from the header of the page
+09:23:23.770 [main] INFO  resources.base - User has clicked on the Purchase Analysis button from the header of the page
+09:23:38.776 [main] INFO  resources.base - User have reached the Purchase Analysis page after clicking on the Purchase Analysis button from the header of the page
+09:23:49.151 [main] INFO  resources.base - User have clicked on email icon on purchase analysis Page
+09:23:49.282 [main] INFO  resources.base - User have entered the email on email field at purchase analysis Page
+09:23:49.960 [main] INFO  resources.base - User have click on Send button at email popup screen at purchase analysis Page
+09:24:00.995 [main] INFO  resources.base - User has clicked on the Calendar button from the header of the page
+09:24:00.995 [main] INFO  resources.base - User have reached the  Calendar page after clicking on the Calendar button from the header of the page
+09:24:50.574 [main] INFO  resources.base - User have reached the expiration report after clicking on the report button from the Calendar page from monthly view tab
+09:25:35.454 [main] INFO  resources.base - User have reached the expiration report after clicking on the report button from the Calendar page from Detail view tab
+09:25:45.788 [main] INFO  resources.base - User has clicked on the Assets report from Report tab
+09:26:00.805 [main] INFO  resources.base - User have reached the assets report after clicking on asset link from report tab
+09:26:12.857 [main] INFO  resources.base - User has clicked on the Days To Ship report from Report tab
+09:26:27.862 [main] INFO  resources.base - User have reached the Days To Ship report after clicking on Days To Ship link from report tab
+09:26:43.530 [main] INFO  resources.base - User has clicked on the Saved Report icon from the header of the page
+09:26:43.545 [main] INFO  resources.base - User have reached the  Saved Report page after clicking on the Saved Report icon from the header of the page
+06:46:55.839 [main] INFO  resources.base - User Have Successfully Login To The Home Page
+06:48:16.279 [main] INFO  resources.base - Recently Viewed Page is Opened
+06:48:20.473 [main] INFO  resources.base - User has clicked the Logo from the footer of the page
+06:48:20.508 [main] INFO  resources.base - User Have reached the Home Page clicking on the footer Logo
+06:50:31.393 [main] INFO  resources.base - User Have Successfully Login To The Home Page
+14:00:09.404 [main] INFO  resources.base - User Have Successfully Login To The Home Page
+14:01:33.170 [main] ERROR resources.base - Recently Viewed page is not getting opened
+14:01:33.170 [main] ERROR resources.base - expected [Recently Viewed Products - MarkITplace] but found [Oops! something went wrong. - MarkITplace]
+14:01:38.592 [main] INFO  resources.base - User has clicked the Logo from the footer of the page
+14:01:38.592 [main] ERROR resources.base - User not able to reach home clicking on the footer logo
+14:01:38.592 [main] ERROR resources.base - expected [Shop - MarkITplace] but found [Oops! something went wrong. - MarkITplace]
+14:04:12.483 [main] INFO  resources.base - User Have Successfully Login To The Home Page
+14:04:12.592 [main] INFO  resources.base - user is searching printer using the search textbox
+14:04:32.624 [main] INFO  resources.base - User Have Successfully reached the printer search listing page
+14:04:32.842 [main] INFO  resources.base - Search result data is Appearing on the Search Result Page
+14:05:13.686 [main] INFO  resources.base - User has clicked on Add to Cart on First Searched Product
+14:05:20.623 [main] INFO  resources.base - Product 1 is successfully added to Cart
+14:05:20.889 [main] INFO  resources.base - User has closed the Add to Cart Modal after adding 1st product to cart
+14:05:46.901 [main] INFO  resources.base - User Have Successfully reached the PDP Page
+14:05:51.219 [main] INFO  resources.base - Recently Viewed Page is Opened
+14:06:01.685 [main] INFO  resources.base - User has clicked the Logo from the footer of the page
+14:06:01.708 [main] INFO  resources.base - User Have reached the Home Page clicking on the footer Logo
+14:06:14.248 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+14:06:14.248 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+14:06:18.826 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+14:06:23.764 [main] INFO  resources.base - User has clicked the Logo from the header of the page
+14:06:23.764 [main] INFO  resources.base - User Have reached the Home Page clicking on the Header Logo
+14:06:31.389 [main] INFO  resources.base - User has clicked on the Standard Catalog Navigation button from header
+14:06:37.389 [main] INFO  resources.base - User Have reached the Standard Catalog Page
+14:07:01.357 [main] INFO  resources.base - User has clicked on the 1st Standard Product appearing and reached the PDP Page
+14:07:22.185 [main] INFO  resources.base - User has clicked on All Product Nevigation button from the header
+14:07:27.186 [main] INFO  resources.base - User Have reached the All Product Page
+14:07:54.311 [main] INFO  resources.base - User has clicked on Audio Cables Category From All Products Page
+14:07:54.326 [main] INFO  resources.base - User Have reached the Audio Cables Category Page
+14:08:26.733 [main] INFO  resources.base - User has clicked on Resouces link from the header
+14:08:26.748 [main] INFO  resources.base - User Have reached the Resources Page
+14:08:39.249 [main] INFO  resources.base - User has clicked on Special Offer Link from the header
+14:08:39.264 [main] INFO  resources.base - User Have reached the Special Offer Page
+14:08:46.420 [main] INFO  resources.base - User has clicked on Cart Icon from the header
+14:08:46.420 [main] INFO  resources.base - User Have reached the Shopping Cart Page
+14:09:09.607 [main] INFO  resources.base - User has clicked the Logo from the header of the page
+14:09:09.607 [main] INFO  resources.base - User Have reached the Home Page clicking on the Header Logo
+14:09:14.092 [main] INFO  resources.base - User has clicked the Logo from the footer of the page
+14:09:14.107 [main] INFO  resources.base - User Have reached the Home Page clicking on the footer Logo
+14:09:24.139 [main] INFO  resources.base - User has clicked on the Standard Catalog Link from the footer of the page
+14:09:24.139 [main] INFO  resources.base - User Have reached the Standard Product page after clicking on the Standard Catalog Link from the footer of the page
+14:09:34.967 [main] INFO  resources.base - User has clicked on the All product Link from the footer of the page
+14:09:34.982 [main] INFO  resources.base - User Have reached the All Product page after clicking on the Standard Catalog Link from the footer of the page
+14:09:51.357 [main] INFO  resources.base - User has clicked on the resources  Link from the footer of the page
+14:09:51.357 [main] INFO  resources.base - User Have reached the resources page after clicking on the resources Link from the footer of the page
+14:09:56.703 [main] INFO  resources.base - User has clicked on the Special offer Link from the footer of the page
+14:09:56.715 [main] INFO  resources.base - User Have reached the Special offer after clicking on the Special offer Link from the footer of the page
+14:10:04.373 [main] INFO  resources.base - User has clicked on the Special offer Link from the footer of the page
+14:10:04.373 [main] INFO  resources.base - User Have reached the Favorites after clicking on the Favorites Link from the footer of the page
+14:10:09.670 [main] INFO  resources.base - User has clicked on the Track button from the header of the page
+14:10:29.670 [main] INFO  resources.base - User have reached the Track page after clicking on the Track button from the header of the page
+14:10:37.123 [main] INFO  resources.base - User has clicked on the order button from the header of the page
+14:10:47.143 [main] INFO  resources.base - User have reached the Order page after clicking on the Order button from the header of the page
+14:10:57.436 [main] INFO  resources.base - User has clicked on the Purchase Analysis button from the header of the page
+14:11:12.451 [main] INFO  resources.base - User have reached the Purchase Analysis page after clicking on the Purchase Analysis button from the header of the page
+14:11:22.748 [main] INFO  resources.base - User have clicked on email icon on purchase analysis Page
+14:11:22.812 [main] INFO  resources.base - User have entered the email on email field at purchase analysis Page
+14:11:23.265 [main] INFO  resources.base - User have click on Send button at email popup screen at purchase analysis Page
+14:11:31.795 [main] INFO  resources.base - User has clicked on the Calendar button from the header of the page
+14:11:31.795 [main] INFO  resources.base - User have reached the  Calendar page after clicking on the Calendar button from the header of the page
+14:12:19.317 [main] INFO  resources.base - User have reached the expiration report after clicking on the report button from the Calendar page from monthly view tab
+14:13:04.783 [main] INFO  resources.base - User have reached the expiration report after clicking on the report button from the Calendar page from Detail view tab
+14:13:15.092 [main] INFO  resources.base - User has clicked on the Assets report from Report tab
+14:13:30.115 [main] INFO  resources.base - User have reached the assets report after clicking on asset link from report tab
+14:13:41.498 [main] INFO  resources.base - User has clicked on the Days To Ship report from Report tab
+14:13:56.498 [main] INFO  resources.base - User have reached the Days To Ship report after clicking on Days To Ship link from report tab
+14:14:12.342 [main] INFO  resources.base - User has clicked on the Saved Report icon from the header of the page
+14:14:12.342 [main] INFO  resources.base - User have reached the  Saved Report page after clicking on the Saved Report icon from the header of the page

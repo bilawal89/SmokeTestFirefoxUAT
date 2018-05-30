@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>30/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>26/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Apr 12 15:19:30 PKT 2018</td>
+<td>Started on:</td><td>Tue May 29 14:03:28 PKT 2018</td>
 </tr>
-<tr><td>Total time:</td><td>791 seconds (791922 ms)</td>
+<tr><td>Total time:</td><td>645 seconds (645157 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,99 +75,109 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='smokeTestFirefox.ValidateSmokeTest.ValidateAllReportsLinks()'><b>ValidateAllReportsLinks</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Web element reference not seen before: 654245d3-1bc6-4454-b787-de9579bd6606
+<td title='smokeTestFirefox.ValidateSmokeTest.ValidateCheckoutProcess()'><b>ValidateCheckoutProcess</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id=&apos;tbPO&apos;]
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;DESKTOP-GAH683G&apos;, ip: &apos;10.0.2.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.1&apos;
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DESKTOP-B75F35K&apos;, ip: &apos;10.0.2.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\bilaw\AppData\Local\Temp\rust_mozprofile.suxoQCMWd52k, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=57.0a1, platformVersion=10.0, moz:processID=8788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt, moz:webdriverClick=false}]
-Session ID: 091defc1-ae4e-4e3a-a6bf-901ddde7f1c8
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:703)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:631)
-	at smokeTestFirefox.ValidateSmokeTest.ValidateAllReportsLinks(ValidateSmokeTest.java:1089)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13308, moz:profile: C:\Users\bilaw\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c8331d6c-a08a-4a9d-ab55-9f2622de664e
+*** Element info: {Using=xpath, value=//input[@id=&apos;tbPO&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at pageObjects.CheckoutPage.getPO(CheckoutPage.java:49)
+	at smokeTestFirefox.ValidateSmokeTest.ValidateCheckoutProcess(ValidateSmokeTest.java:641)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace744021169", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace744021169'><pre>org.openqa.selenium.NoSuchElementException: Web element reference not seen before: 654245d3-1bc6-4454-b787-de9579bd6606
+</pre></div><a href='#' onClick='toggleBox("stack-trace108449608", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace108449608'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id=&apos;tbPO&apos;]
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;DESKTOP-GAH683G&apos;, ip: &apos;10.0.2.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.1&apos;
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;DESKTOP-B75F35K&apos;, ip: &apos;10.0.2.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\bilaw\AppData\Local\Temp\rust_mozprofile.suxoQCMWd52k, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=57.0a1, platformVersion=10.0, moz:processID=8788.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt, moz:webdriverClick=false}]
-Session ID: 091defc1-ae4e-4e3a-a6bf-901ddde7f1c8
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:703)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:631)
-	at smokeTestFirefox.ValidateSmokeTest.ValidateAllReportsLinks(ValidateSmokeTest.java:1089)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13308, moz:profile: C:\Users\bilaw\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: c8331d6c-a08a-4a9d-ab55-9f2622de664e
+*** Element info: {Using=xpath, value=//input[@id=&apos;tbPO&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+	at pageObjects.CheckoutPage.getPO(CheckoutPage.java:49)
+	at smokeTestFirefox.ValidateSmokeTest.ValidateCheckoutProcess(ValidateSmokeTest.java:641)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>69</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
+<td>15</td>
+<td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -179,153 +189,133 @@ Session ID: 091defc1-ae4e-4e3a-a6bf-901ddde7f1c8
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateAddToCart()'><b>ValidateAddToCart</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>54</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
-<tr>
-<td title='smokeTestFirefox.ValidateSmokeTest.ValidateAddTofavorites()'><b>ValidateAddTofavorites</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
-<td></td>
-<td>8</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
+<td>52</td>
+<td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateAllProduct()'><b>ValidateAllProduct</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>12</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
+<td>25</td>
+<td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
+<tr>
+<td title='smokeTestFirefox.ValidateSmokeTest.ValidateAllReportsLinks()'><b>ValidateAllReportsLinks</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
+<td></td>
+<td>51</td>
+<td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateAudioCablesCategory()'><b>ValidateAudioCablesCategory</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>17</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
+<td>27</td>
+<td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateCalendarLinks()'><b>ValidateCalendarLinks</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>85</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
+<td>92</td>
+<td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateCalendarPage()'><b>ValidateCalendarPage</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>18</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
+<td>8</td>
+<td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateCartPage()'><b>ValidateCartPage</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>8</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
+<td>7</td>
+<td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateCheckoutFooterLogo()'><b>ValidateCheckoutFooterLogo</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>8</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
+<td>4</td>
+<td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateCheckoutHeaderLogo()'><b>ValidateCheckoutHeaderLogo</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
 <td>7</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
-<tr>
-<td title='smokeTestFirefox.ValidateSmokeTest.ValidateCheckoutProcess()'><b>ValidateCheckoutProcess</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
-<td></td>
-<td>42</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
-<tr>
-<td title='smokeTestFirefox.ValidateSmokeTest.ValidateCompaePage()'><b>ValidateCompaePage</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
-<td></td>
-<td>49</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
-<tr>
-<td title='smokeTestFirefox.ValidateSmokeTest.ValidateFavoriteIcon()'><b>ValidateFavoriteIcon</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
-<td></td>
-<td>58</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
+<td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateFooterLinks()'><b>ValidateFooterLinks</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>37</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
+<td>50</td>
+<td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateFooterLogo()'><b>ValidateFooterLogo</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>7</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
+<td>10</td>
+<td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateHeaderLogo()'><b>ValidateHeaderLogo</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>8</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
+<td>4</td>
+<td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateLogin()'><b>ValidateLogin</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>49</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
+<td>43</td>
+<td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateMyProfNavigation()'><b>ValidateMyProfNavigation</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>12</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
+<td>17</td>
+<td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidatePAEmail()'><b>ValidatePAEmail</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>12</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
+<td>11</td>
+<td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidatePDP()'><b>ValidatePDP</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>13</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
+<td>20</td>
+<td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidatePurchaseAnalysisPage()'><b>ValidatePurchaseAnalysisPage</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>39</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
+<td>20</td>
+<td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateRecentViewLink()'><b>ValidateRecentViewLink</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
 <td>4</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
-<tr>
-<td title='smokeTestFirefox.ValidateSmokeTest.ValidateRemoveFromCart()'><b>ValidateRemoveFromCart</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
-<td></td>
-<td>8</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
+<td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateResources()'><b>ValidateResources</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>13</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
+<td>32</td>
+<td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateSavedReports()'><b>ValidateSavedReports</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>17</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
+<td>15</td>
+<td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateSearching()'><b>ValidateSearching</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>22</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
+<td>20</td>
+<td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateSpecialOffer()'><b>ValidateSpecialOffer</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>10</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
+<td>12</td>
+<td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateStandardsCatalog()'><b>ValidateStandardsCatalog</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>14</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
+<td>13</td>
+<td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateStandardsCatalogDetail()'><b>ValidateStandardsCatalogDetail</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>25</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
+<td>23</td>
+<td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateTrackpage()'><b>ValidateTrackpage</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
 <td>25</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
+<td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateordersPage()'><b>ValidateordersPage</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>26</td>
-<td>smokeTestFirefox.ValidateSmokeTest@5049d8b2</td></tr>
+<td>22</td>
+<td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 </table><p>
 </body>
 </html>
