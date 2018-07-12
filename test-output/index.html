@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\bilaw\AppData\Local\Temp\testng-eclipse--1169303311\testng-customsuite.xml</span>
+                    <span>C:\Users\bilaw\AppData\Local\Temp\testng-eclipse-1071569106\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="smokeTestFirefox.ValidateSmokeTest" hash-for-method="ValidateCheckoutProcess">ValidateCheckoutProcess</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="smokeTestFirefox.ValidateSmokeTest" hash-for-method="ValidateMyProfNavigation">ValidateMyProfNavigation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -161,6 +161,11 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="smokeTestFirefox.ValidateSmokeTest" hash-for-method="ValidateCheckoutProcess">ValidateCheckoutProcess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="smokeTestFirefox.ValidateSmokeTest" hash-for-method="ValidateFooterLinks">ValidateFooterLinks</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -177,11 +182,6 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="smokeTestFirefox.ValidateSmokeTest" hash-for-method="ValidateLogin">ValidateLogin</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="smokeTestFirefox.ValidateSmokeTest" hash-for-method="ValidateMyProfNavigation">ValidateMyProfNavigation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -264,33 +264,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="ValidateCheckoutProcess">
-                  </a> <!-- ValidateCheckoutProcess -->
-                  <span class="method-name">ValidateCheckoutProcess</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id=&apos;tbPO&apos;]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+                  <a name="ValidateMyProfNavigation">
+                  </a> <!-- ValidateMyProfNavigation -->
+                  <span class="method-name">ValidateMyProfNavigation</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[FirefoxDriver: firefox on XP (231f7039-427d-4611-9ff1-1c1dca5e27ef)] -&gt; xpath: (//a[text()=&apos;My Profile&apos;])[1]] (tried for 50 second(s) with 500 milliseconds interval)
 Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
 System info: host: &apos;DESKTOP-B75F35K&apos;, ip: &apos;10.0.2.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13308, moz:profile: C:\Users\bilaw\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: c8331d6c-a08a-4a9d-ab55-9f2622de664e
-*** Element info: {Using=xpath, value=//input[@id=&apos;tbPO&apos;]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
-	at pageObjects.CheckoutPage.getPO(CheckoutPage.java:49)
-	at smokeTestFirefox.ValidateSmokeTest.ValidateCheckoutProcess(ValidateSmokeTest.java:641)
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8804, moz:profile: C:\Users\bilaw\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 231f7039-427d-4611-9ff1-1c1dca5e27ef
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at smokeTestFirefox.ValidateSmokeTest.ValidateMyProfNavigation(ValidateSmokeTest.java:404)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -393,6 +378,13 @@ Session ID: c8331d6c-a08a-4a9d-ab55-9f2622de664e
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="ValidateCheckoutProcess">
+                  </a> <!-- ValidateCheckoutProcess -->
+                  <span class="method-name">ValidateCheckoutProcess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="ValidateFooterLinks">
                   </a> <!-- ValidateFooterLinks -->
                   <span class="method-name">ValidateFooterLinks</span>
@@ -417,13 +409,6 @@ Session ID: c8331d6c-a08a-4a9d-ab55-9f2622de664e
                   <a name="ValidateLogin">
                   </a> <!-- ValidateLogin -->
                   <span class="method-name">ValidateLogin</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="ValidateMyProfNavigation">
-                  </a> <!-- ValidateMyProfNavigation -->
-                  <span class="method-name">ValidateMyProfNavigation</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -515,7 +500,7 @@ Session ID: c8331d6c-a08a-4a9d-ab55-9f2622de664e
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\bilaw\AppData\Local\Temp\testng-eclipse--1169303311\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\bilaw\AppData\Local\Temp\testng-eclipse-1071569106\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -566,118 +551,118 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(27);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'ValidateCalendarLinks')
+data.setCell(0, 1, 'ValidateSearching')
 data.setCell(0, 2, 'smokeTestFirefox.ValidateSmokeTest')
-data.setCell(0, 3, 92989);
+data.setCell(0, 3, 97387);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'ValidateAddToCart')
+data.setCell(1, 1, 'ValidateCalendarLinks')
 data.setCell(1, 2, 'smokeTestFirefox.ValidateSmokeTest')
-data.setCell(1, 3, 52984);
+data.setCell(1, 3, 84742);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'ValidateAllReportsLinks')
+data.setCell(2, 1, 'ValidateCheckoutProcess')
 data.setCell(2, 2, 'smokeTestFirefox.ValidateSmokeTest')
-data.setCell(2, 3, 51708);
+data.setCell(2, 3, 57607);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'ValidateFooterLinks')
+data.setCell(3, 1, 'ValidateAddToCart')
 data.setCell(3, 2, 'smokeTestFirefox.ValidateSmokeTest')
-data.setCell(3, 3, 50266);
+data.setCell(3, 3, 55108);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'ValidateLogin')
+data.setCell(4, 1, 'ValidateMyProfNavigation')
 data.setCell(4, 2, 'smokeTestFirefox.ValidateSmokeTest')
-data.setCell(4, 3, 43782);
+data.setCell(4, 3, 53676);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'ValidateResources')
+data.setCell(5, 1, 'ValidateAllReportsLinks')
 data.setCell(5, 2, 'smokeTestFirefox.ValidateSmokeTest')
-data.setCell(5, 3, 32422);
+data.setCell(5, 3, 51662);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'ValidateAudioCablesCategory')
+data.setCell(6, 1, 'ValidateLogin')
 data.setCell(6, 2, 'smokeTestFirefox.ValidateSmokeTest')
-data.setCell(6, 3, 27140);
+data.setCell(6, 3, 43106);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'ValidateAllProduct')
+data.setCell(7, 1, 'ValidateTrackpage')
 data.setCell(7, 2, 'smokeTestFirefox.ValidateSmokeTest')
-data.setCell(7, 3, 25829);
+data.setCell(7, 3, 29093);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'ValidateTrackpage')
+data.setCell(8, 1, 'ValidateFooterLinks')
 data.setCell(8, 2, 'smokeTestFirefox.ValidateSmokeTest')
-data.setCell(8, 3, 25297);
+data.setCell(8, 3, 28716);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'ValidateStandardsCatalogDetail')
+data.setCell(9, 1, 'ValidateordersPage')
 data.setCell(9, 2, 'smokeTestFirefox.ValidateSmokeTest')
-data.setCell(9, 3, 23968);
+data.setCell(9, 3, 22329);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'ValidateordersPage')
+data.setCell(10, 1, 'ValidateAudioCablesCategory')
 data.setCell(10, 2, 'smokeTestFirefox.ValidateSmokeTest')
-data.setCell(10, 3, 22484);
+data.setCell(10, 3, 21775);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'ValidatePDP')
+data.setCell(11, 1, 'ValidatePurchaseAnalysisPage')
 data.setCell(11, 2, 'smokeTestFirefox.ValidateSmokeTest')
-data.setCell(11, 3, 20996);
+data.setCell(11, 3, 20592);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'ValidateSearching')
+data.setCell(12, 1, 'ValidateStandardsCatalogDetail')
 data.setCell(12, 2, 'smokeTestFirefox.ValidateSmokeTest')
-data.setCell(12, 3, 20390);
+data.setCell(12, 3, 18897);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'ValidatePurchaseAnalysisPage')
+data.setCell(13, 1, 'ValidateSavedReports')
 data.setCell(13, 2, 'smokeTestFirefox.ValidateSmokeTest')
-data.setCell(13, 3, 20293);
+data.setCell(13, 3, 15708);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'ValidateMyProfNavigation')
+data.setCell(14, 1, 'ValidatePDP')
 data.setCell(14, 2, 'smokeTestFirefox.ValidateSmokeTest')
-data.setCell(14, 3, 17113);
+data.setCell(14, 3, 14606);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'ValidateSavedReports')
+data.setCell(15, 1, 'ValidateResources')
 data.setCell(15, 2, 'smokeTestFirefox.ValidateSmokeTest')
-data.setCell(15, 3, 15844);
+data.setCell(15, 3, 12838);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'ValidateCheckoutProcess')
+data.setCell(16, 1, 'ValidateStandardsCatalog')
 data.setCell(16, 2, 'smokeTestFirefox.ValidateSmokeTest')
-data.setCell(16, 3, 15406);
+data.setCell(16, 3, 12399);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'ValidateStandardsCatalog')
+data.setCell(17, 1, 'ValidateAllProduct')
 data.setCell(17, 2, 'smokeTestFirefox.ValidateSmokeTest')
-data.setCell(17, 3, 13625);
+data.setCell(17, 3, 11558);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'ValidateSpecialOffer')
+data.setCell(18, 1, 'ValidatePAEmail')
 data.setCell(18, 2, 'smokeTestFirefox.ValidateSmokeTest')
-data.setCell(18, 3, 12516);
+data.setCell(18, 3, 11242);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'ValidatePAEmail')
+data.setCell(19, 1, 'ValidateSpecialOffer')
 data.setCell(19, 2, 'smokeTestFirefox.ValidateSmokeTest')
-data.setCell(19, 3, 11039);
+data.setCell(19, 3, 10288);
 data.setCell(20, 0, 20)
 data.setCell(20, 1, 'ValidateFooterLogo')
 data.setCell(20, 2, 'smokeTestFirefox.ValidateSmokeTest')
-data.setCell(20, 3, 10490);
+data.setCell(20, 3, 9925);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'ValidateCalendarPage')
+data.setCell(21, 1, 'ValidateCartPage')
 data.setCell(21, 2, 'smokeTestFirefox.ValidateSmokeTest')
-data.setCell(21, 3, 8305);
+data.setCell(21, 3, 8321);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'ValidateCheckoutHeaderLogo')
+data.setCell(22, 1, 'ValidateCalendarPage')
 data.setCell(22, 2, 'smokeTestFirefox.ValidateSmokeTest')
-data.setCell(22, 3, 7781);
+data.setCell(22, 3, 7580);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'ValidateCartPage')
+data.setCell(23, 1, 'ValidateCheckoutHeaderLogo')
 data.setCell(23, 2, 'smokeTestFirefox.ValidateSmokeTest')
-data.setCell(23, 3, 7156);
+data.setCell(23, 3, 4560);
 data.setCell(24, 0, 24)
 data.setCell(24, 1, 'ValidateHeaderLogo')
 data.setCell(24, 2, 'smokeTestFirefox.ValidateSmokeTest')
-data.setCell(24, 3, 4938);
+data.setCell(24, 3, 4527);
 data.setCell(25, 0, 25)
 data.setCell(25, 1, 'ValidateCheckoutFooterLogo')
 data.setCell(25, 2, 'smokeTestFirefox.ValidateSmokeTest')
-data.setCell(25, 3, 4484);
+data.setCell(25, 3, 4121);
 data.setCell(26, 0, 26)
 data.setCell(26, 1, 'ValidateRecentViewLink')
 data.setCell(26, 2, 'smokeTestFirefox.ValidateSmokeTest')
-data.setCell(26, 3, 4316);
+data.setCell(26, 3, 4028);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 minutes</span>
+              <span class="suite-total-time">Total running time: 11 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -723,113 +708,113 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ValidateSearching</span>
-                <span class="method-start">43797 ms</span>
+                <span class="method-start">43106 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ValidateAddToCart</span>
-                <span class="method-start">64204 ms</span>
+                <span class="method-start">140493 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ValidatePDP</span>
-                <span class="method-start">117204 ms</span>
+                <span class="method-start">195601 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ValidateRecentViewLink</span>
-                <span class="method-start">138202 ms</span>
+                <span class="method-start">210207 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ValidateFooterLogo</span>
-                <span class="method-start">142518 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">ValidateMyProfNavigation</span>
-                <span class="method-start">153012 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">ValidateHeaderLogo</span>
-                <span class="method-start">170125 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">ValidateStandardsCatalog</span>
-                <span class="method-start">175063 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">ValidateStandardsCatalogDetail</span>
-                <span class="method-start">188688 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">ValidateAllProduct</span>
-                <span class="method-start">212656 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">ValidateAudioCablesCategory</span>
-                <span class="method-start">238485 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">ValidateResources</span>
-                <span class="method-start">265625 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">ValidateSpecialOffer</span>
-                <span class="method-start">298047 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">ValidateCartPage</span>
-                <span class="method-start">310563 ms</span>
+                <span class="method-start">214235 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
+                <span class="method-name">ValidateMyProfNavigation</span>
+                <span class="method-start">224160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateHeaderLogo</span>
+                <span class="method-start">277836 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateStandardsCatalog</span>
+                <span class="method-start">282386 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateStandardsCatalogDetail</span>
+                <span class="method-start">294804 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateAllProduct</span>
+                <span class="method-start">313704 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateAudioCablesCategory</span>
+                <span class="method-start">325262 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateResources</span>
+                <span class="method-start">347037 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateSpecialOffer</span>
+                <span class="method-start">359876 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateCartPage</span>
+                <span class="method-start">370164 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">ValidateCheckoutProcess</span>
-                <span class="method-start">317719 ms</span>
+                <span class="method-start">378487 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ValidateCheckoutHeaderLogo</span>
-                <span class="method-start">333125 ms</span>
+                <span class="method-start">436094 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ValidateCheckoutFooterLogo</span>
-                <span class="method-start">340922 ms</span>
+                <span class="method-start">440654 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ValidateFooterLinks</span>
-                <span class="method-start">345406 ms</span>
+                <span class="method-start">444775 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ValidateTrackpage</span>
-                <span class="method-start">395672 ms</span>
+                <span class="method-start">473491 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ValidateordersPage</span>
-                <span class="method-start">420969 ms</span>
+                <span class="method-start">502584 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ValidatePurchaseAnalysisPage</span>
-                <span class="method-start">443457 ms</span>
+                <span class="method-start">524913 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ValidatePAEmail</span>
-                <span class="method-start">463750 ms</span>
+                <span class="method-start">545505 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ValidateCalendarPage</span>
-                <span class="method-start">474789 ms</span>
+                <span class="method-start">556747 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ValidateCalendarLinks</span>
-                <span class="method-start">483094 ms</span>
+                <span class="method-start">564327 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ValidateAllReportsLinks</span>
-                <span class="method-start">576089 ms</span>
+                <span class="method-start">649069 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ValidateSavedReports</span>
-                <span class="method-start">627797 ms</span>
+                <span class="method-start">700731 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">closebrowser</span>
-                <span class="method-start">643641 ms</span>
+                <span class="method-start">716439 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

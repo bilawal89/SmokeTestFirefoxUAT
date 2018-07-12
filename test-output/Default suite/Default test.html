@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>26/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue May 29 14:03:28 PKT 2018</td>
+<td>Started on:</td><td>Wed Jul 11 17:40:05 PKT 2018</td>
 </tr>
-<tr><td>Total time:</td><td>645 seconds (645157 ms)</td>
+<tr><td>Total time:</td><td>717 seconds (717450 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,31 +75,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='smokeTestFirefox.ValidateSmokeTest.ValidateCheckoutProcess()'><b>ValidateCheckoutProcess</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id=&apos;tbPO&apos;]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+<td title='smokeTestFirefox.ValidateSmokeTest.ValidateMyProfNavigation()'><b>ValidateMyProfNavigation</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[FirefoxDriver: firefox on XP (231f7039-427d-4611-9ff1-1c1dca5e27ef)] -&gt; xpath: (//a[text()=&apos;My Profile&apos;])[1]] (tried for 50 second(s) with 500 milliseconds interval)
 Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
 System info: host: &apos;DESKTOP-B75F35K&apos;, ip: &apos;10.0.2.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13308, moz:profile: C:\Users\bilaw\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: c8331d6c-a08a-4a9d-ab55-9f2622de664e
-*** Element info: {Using=xpath, value=//input[@id=&apos;tbPO&apos;]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
-	at pageObjects.CheckoutPage.getPO(CheckoutPage.java:49)
-	at smokeTestFirefox.ValidateSmokeTest.ValidateCheckoutProcess(ValidateSmokeTest.java:641)
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8804, moz:profile: C:\Users\bilaw\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 231f7039-427d-4611-9ff1-1c1dca5e27ef
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at smokeTestFirefox.ValidateSmokeTest.ValidateMyProfNavigation(ValidateSmokeTest.java:404)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -125,31 +110,16 @@ Session ID: c8331d6c-a08a-4a9d-ab55-9f2622de664e
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace108449608", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace108449608'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id=&apos;tbPO&apos;]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+</pre></div><a href='#' onClick='toggleBox("stack-trace584561912", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace584561912'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[FirefoxDriver: firefox on XP (231f7039-427d-4611-9ff1-1c1dca5e27ef)] -&gt; xpath: (//a[text()=&apos;My Profile&apos;])[1]] (tried for 50 second(s) with 500 milliseconds interval)
 Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
 System info: host: &apos;DESKTOP-B75F35K&apos;, ip: &apos;10.0.2.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13308, moz:profile: C:\Users\bilaw\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: c8331d6c-a08a-4a9d-ab55-9f2622de664e
-*** Element info: {Using=xpath, value=//input[@id=&apos;tbPO&apos;]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
-	at pageObjects.CheckoutPage.getPO(CheckoutPage.java:49)
-	at smokeTestFirefox.ValidateSmokeTest.ValidateCheckoutProcess(ValidateSmokeTest.java:641)
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8804, moz:profile: C:\Users\bilaw\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 231f7039-427d-4611-9ff1-1c1dca5e27ef
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at smokeTestFirefox.ValidateSmokeTest.ValidateMyProfNavigation(ValidateSmokeTest.java:404)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -176,7 +146,7 @@ Session ID: c8331d6c-a08a-4a9d-ab55-9f2622de664e
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>15</td>
+<td>53</td>
 <td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -189,12 +159,12 @@ Session ID: c8331d6c-a08a-4a9d-ab55-9f2622de664e
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateAddToCart()'><b>ValidateAddToCart</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>52</td>
+<td>55</td>
 <td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateAllProduct()'><b>ValidateAllProduct</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>25</td>
+<td>11</td>
 <td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateAllReportsLinks()'><b>ValidateAllReportsLinks</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
@@ -204,22 +174,22 @@ Session ID: c8331d6c-a08a-4a9d-ab55-9f2622de664e
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateAudioCablesCategory()'><b>ValidateAudioCablesCategory</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>27</td>
+<td>21</td>
 <td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateCalendarLinks()'><b>ValidateCalendarLinks</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>92</td>
+<td>84</td>
 <td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateCalendarPage()'><b>ValidateCalendarPage</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>8</td>
+<td>7</td>
 <td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateCartPage()'><b>ValidateCartPage</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>7</td>
+<td>8</td>
 <td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateCheckoutFooterLogo()'><b>ValidateCheckoutFooterLogo</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
@@ -229,17 +199,22 @@ Session ID: c8331d6c-a08a-4a9d-ab55-9f2622de664e
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateCheckoutHeaderLogo()'><b>ValidateCheckoutHeaderLogo</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>7</td>
+<td>4</td>
+<td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
+<tr>
+<td title='smokeTestFirefox.ValidateSmokeTest.ValidateCheckoutProcess()'><b>ValidateCheckoutProcess</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
+<td></td>
+<td>57</td>
 <td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateFooterLinks()'><b>ValidateFooterLinks</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>50</td>
+<td>28</td>
 <td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateFooterLogo()'><b>ValidateFooterLogo</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>10</td>
+<td>9</td>
 <td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateHeaderLogo()'><b>ValidateHeaderLogo</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
@@ -252,11 +227,6 @@ Session ID: c8331d6c-a08a-4a9d-ab55-9f2622de664e
 <td>43</td>
 <td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
-<td title='smokeTestFirefox.ValidateSmokeTest.ValidateMyProfNavigation()'><b>ValidateMyProfNavigation</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
-<td></td>
-<td>17</td>
-<td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
-<tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidatePAEmail()'><b>ValidatePAEmail</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
 <td>11</td>
@@ -264,7 +234,7 @@ Session ID: c8331d6c-a08a-4a9d-ab55-9f2622de664e
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidatePDP()'><b>ValidatePDP</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>20</td>
+<td>14</td>
 <td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidatePurchaseAnalysisPage()'><b>ValidatePurchaseAnalysisPage</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
@@ -279,7 +249,7 @@ Session ID: c8331d6c-a08a-4a9d-ab55-9f2622de664e
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateResources()'><b>ValidateResources</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>32</td>
+<td>12</td>
 <td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateSavedReports()'><b>ValidateSavedReports</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
@@ -289,27 +259,27 @@ Session ID: c8331d6c-a08a-4a9d-ab55-9f2622de664e
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateSearching()'><b>ValidateSearching</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>20</td>
+<td>97</td>
 <td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateSpecialOffer()'><b>ValidateSpecialOffer</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>12</td>
+<td>10</td>
 <td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateStandardsCatalog()'><b>ValidateStandardsCatalog</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>13</td>
+<td>12</td>
 <td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateStandardsCatalogDetail()'><b>ValidateStandardsCatalogDetail</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>23</td>
+<td>18</td>
 <td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateTrackpage()'><b>ValidateTrackpage</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>25</td>
+<td>29</td>
 <td>smokeTestFirefox.ValidateSmokeTest@65466a6a</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateordersPage()'><b>ValidateordersPage</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>

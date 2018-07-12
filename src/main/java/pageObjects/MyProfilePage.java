@@ -15,7 +15,8 @@ public class MyProfilePage {
 	}
 	By EditProfBtn=By.linkText("Edit Profile");
 	By ShippingAddressLink=By.linkText("Shipping Addresses");
-	By MyProfileLinkLink=By.linkText("My Profile");
+	//By MyProfileLinkLink=By.linkText("My Profile");
+	By MyProfileLinkLink=By.xpath("(//a[text()='My Profile'])[1]");
 	By AccountDropdown=By.xpath("//i[@class='fa fa-caret-down'][1]");
 	
 	By ShippingAddressLinkFF=By.xpath("(//a[text()='Shipping Addresses'])[3]");
