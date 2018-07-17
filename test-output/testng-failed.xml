@@ -5,8 +5,28 @@
     <classes>
       <class name="smokeTestFirefox.ValidateSmokeTest">
         <methods>
-          <include name="ValidateMyProfNavigation"/>
+          <include name="ValidateFooterLinks"/>
+          <include name="ValidatePurchaseAnalysisPage"/>
+          <include name="ValidateAudioCablesCategory"/>
+          <include name="ValidateCartPage"/>
           <include name="closebrowser"/>
+          <include name="ValidateAllReportsLinks"/>
+          <include name="ValidateSpecialOffer"/>
+          <include name="ValidateCalendarLinks"/>
+          <include name="ValidateSavedReports"/>
+          <include name="ValidateStandardsCatalogDetail"/>
+          <include name="ValidateTrackpage"/>
+          <include name="ValidateCheckoutHeaderLogo"/>
+          <include name="ValidateMyProfNavigation"/>
+          <include name="ValidatePAEmail"/>
+          <include name="ValidateAllProduct"/>
+          <include name="ValidateCalendarPage"/>
+          <include name="ValidateCheckoutProcess"/>
+          <include name="ValidateResources"/>
+          <include name="ValidateCheckoutFooterLogo"/>
+          <include name="ValidateStandardsCatalog"/>
+          <include name="ValidateordersPage"/>
+          <include name="ValidateHeaderLogo"/>
         </methods>
       </class> <!-- smokeTestFirefox.ValidateSmokeTest -->
     </classes>

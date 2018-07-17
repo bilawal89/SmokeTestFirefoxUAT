@@ -10,7 +10,8 @@ public WebDriver driver;
 	
 	//By Usernamefield=By.name("username");
 	//By Searchbox=By.xpath("//input[@id='x_main-search']");
-By Searchbox=By.xpath("(//form[@method='get'])[1]");
+	By Searchbox=By.id("x_main-search");
+//By Searchbox=By.xpath("(//form[@method='get'])[1]");
 	//By SearchboxFF=By.xpath("//input[@id='x_main-search' and @class='main-search']");
 	//By SearchboxFF=By.id("x_main-search");
 	
